@@ -34,10 +34,6 @@ Nesse caso, o dono original do cadastro deve compartilhar o personagem com você
 7. Você pode selecionar **múltiplos usuários**
 8. Toque em **Salvar**
 
-::: info
-Apenas quem cadastrou originalmente o personagem (dono) pode editar o campo "Compartilhado com". Se você não é o dono, peça ao dono para fazer a alteração.
-:::
-
 ---
 
 ## O que acontece depois do compartilhamento?
@@ -73,7 +69,7 @@ O usuário removido perde o vínculo com o personagem e ele deixa de aparecer na
 ## Perguntas frequentes
 
 **Posso editar um personagem que foi compartilhado comigo?**
-Você pode editar os campos de dados (nível, relíquias, itens etc.), mas o campo "Compartilhado com" só pode ser alterado pelo dono original.
+Sim. Qualquer usuário vinculado ao personagem pode editar todos os campos, incluindo o campo "Compartilhado com".
 
 **O compartilhamento afeta o alistamento?**
 Sim, positivamente. Se o personagem está compartilhado com você e sua conta está ativa, o alistamento automático o reconhece normalmente.
