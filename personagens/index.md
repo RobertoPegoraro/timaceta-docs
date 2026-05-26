@@ -12,8 +12,6 @@ Personagens com cadastro desatualizado **há mais de 30 dias** são automaticame
 
 ## Sua lista de personagens
 
-![Lista de personagens vinculados à conta com nick, nível e classe](/img/personagens-lista.png)
-
 1. Abra o menu lateral (☰) e toque em **Personagens**
 2. Você verá todos os personagens vinculados à sua conta, incluindo os que outros jogadores compartilharam com você
 3. Toque em um personagem para editar ou ver detalhes

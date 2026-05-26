@@ -2,16 +2,12 @@
 
 Esta página explica como cadastrar, editar e gerenciar os clãs no sistema.
 
-![Lista de clãs cadastrados no sistema](/img/admin-clas-lista.png)
-
 ## Cadastrar um novo clã
 
 1. Vá em **Gestão → Clãs**
 2. Toque em **+** (adicionar)
 3. Preencha todos os campos (veja abaixo)
 4. Toque em **Salvar**
-
-![Formulário de cadastro de clã com campos de nome, ID, servidor e credenciais](/img/admin-clas-form.png)
 
 ### Campos do clã
 
@@ -85,8 +81,6 @@ Caso as cookies de sessão estejam corrompidas ou expiradas antes do prazo, voc�
 ---
 
 ## Ver membros do clã
-
-![Lista de membros do clã com posição, nick, classe e opções Aceitar/Rejeitar para alistados](/img/admin-clas-membros.png)
 
 Esta funcionalidade está disponível para Admins e Gerenciadores de Clã:
 

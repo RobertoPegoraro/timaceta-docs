@@ -2,8 +2,6 @@
 
 Admins podem ver todos os usuários, ativar/desativar contas e atribuir cargos.
 
-![Lista de usuários com nome, status e último acesso](/img/admin-usuarios-lista.png)
-
 ## Ver lista de usuários
 
 1. Vá em **Gestão → Usuários**
@@ -38,8 +36,6 @@ Usuários com conta inativa não conseguem fazer login e são bloqueados com uma
 ---
 
 ## Atribuir cargos
-
-![Formulário de usuário com toggle de conta ativa e checkboxes de cargos](/img/admin-usuarios-form.png)
 
 1. Toque no usuário
 2. Marque ou desmarque os cargos desejados:

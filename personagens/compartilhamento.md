@@ -25,8 +25,6 @@ Nesse caso, o dono original do cadastro deve compartilhar o personagem com você
 
 **O dono original do personagem** deve fazer isso:
 
-![Campo "Compartilhado com" no formulário do personagem](/img/personagens-compartilhado.png)
-
 1. Vá em **Personagens**
 2. Toque no personagem que deseja compartilhar
 3. Role até o campo **"Compartilhado com"**

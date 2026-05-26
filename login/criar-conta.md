@@ -6,8 +6,6 @@ A criação de novas contas pode estar **desativada** pelo administrador. Se a o
 
 ## Passo a Passo
 
-![Tela de criar conta](/img/criar-conta-tela.png)
-
 1. Na tela de login, toque em **"Criar Conta"**
 2. Preencha:
    - **E-mail** — será seu login

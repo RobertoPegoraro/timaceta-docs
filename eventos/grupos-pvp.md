@@ -10,8 +10,6 @@ Os Grupos PvP são equipes fixas de **5 jogadores** organizadas pelo Coordenador
 
 ---
 
-![Lista de grupos PvP com nome e 5 nicks por grupo](/img/pvp-grupos-lista.png)
-
 ## Visualizar grupos (todos os membros)
 
 Qualquer membro ativo pode ver os grupos PvP formados. Para cada grupo são exibidos:
@@ -23,8 +21,6 @@ Qualquer membro ativo pode ver os grupos PvP formados. Para cada grupo são exib
 ---
 
 ## Criar um grupo PvP (Coordenador PvP)
-
-![Formulário de criação de grupo com 5 campos de nick com busca em tempo real](/img/pvp-grupos-form.png)
 
 1. Vá em **PvP**
 2. Toque em **+** (adicionar)

@@ -7,8 +7,6 @@ O perfil é a sua identidade dentro do app Timaceta. Ele identifica quem você �
 1. Abra o menu lateral (ícone ☰)
 2. Toque em **Perfil**
 
-![Tela de perfil com todos os campos](/img/perfil-tela.png)
-
 ---
 
 ## Campos do perfil
@@ -45,8 +43,6 @@ Esse número pode ser usado pela liderança para entrar em contato fora do app.
 
 ### Informações de Hardware
 
-![Campo de hardware expandido com contador de caracteres](/img/perfil-hardware.png)
-
 Campo expandível (clique para abrir) onde você descreve as especificações do seu computador.
 
 **Regras:**
@@ -79,8 +75,6 @@ A exclusão de conta remove **permanentemente** seu usuário e todos os dados as
 :::
 
 Para excluir sua conta:
-
-![Ícone de lixeira vermelho no canto superior direito do perfil](/img/perfil-deletar-btn.png)
 
 1. Na tela de Perfil, toque no **ícone de lixeira** (vermelho) no canto superior direito
 2. Uma janela de confirmação perguntará: *"Confirma exclusão da conta e de todos os dados?"*
