@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Timaceta — Manual do Sistema',
   description: 'Documentação completa do app Timaceta para gestão de clãs no Priston Tales (Zenit)',
   lang: 'pt-BR',
+  base: '/timaceta-docs/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#1a1a2e' }],

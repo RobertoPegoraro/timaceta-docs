@@ -10,7 +10,7 @@ As regras são verificadas na seguinte ordem. Assim que uma falha é encontrada,
 
 **O que verifica:** Se o nick do personagem existe no banco de dados do Timaceta.
 
-**Como cumprir:** [Cadastre seu personagem](/personagens/) no app com o nick **exatamente igual** ao do Zenit (maiúsculas e minúsculas importam).
+**Como cumprir:** [Cadastre seu personagem](/personagens/) no app com o nick **exatamente igual** ao do Painel (maiúsculas e minúsculas importam).
 
 **O que acontece se falhar:**
 - Removido da fila silenciosamente (sem notificação)
@@ -69,9 +69,7 @@ Configure um lembrete mensal para atualizar seu personagem no app. Basta abrir o
 
 **O que acontece se falhar:**
 - Status **PENDENTE** (não é rejeitado — fica na fila)
-- Uma notificação push é enviada (máximo 1 vez a cada 6 horas):
-  > *"Você está pendente no alistamento. Vote no último evento de BC."*
-- Após votar, será aceito automaticamente no próximo ciclo
+- Uma notificação push é enviada (máximo 1 vez a cada 6 horas caso alistamento fique pendente):
 
 ---
 
@@ -89,14 +87,9 @@ Configure um lembrete mensal para atualizar seu personagem no app. Basta abrir o
 
 ## Situação de múltiplos personagens e piloto
 
-Se você tem **mais de um personagem**, a verificação de voto no BC é feita pelo **usuário do app**, não pelo personagem individualmente.
+Se você tem **mais de um personagem**, a verificação de voto no BC é feita pelo **Nick do personagem**, não pelo usuário.
 
-**Exemplo:** Se você tem o personagem A (principal/piloto) e o personagem B (alt), e votou no BC com qualquer conta vinculada ao **mesmo usuário do app**, ambos os personagens são considerados como tendo votado.
-
-**O que você precisa fazer:**
-1. Cadastrar **todos os seus personagens** no app Timaceta
-2. Todos devem estar vinculados à **mesma conta de usuário** (você faz login com uma conta só)
-3. Votar no evento de BC pelo app — isso vale para todos os seus personagens
+**Exemplo:** Se você tem o personagem A (principal) e o personagem B (secundário), e votou no BC com o principal, apenas esse personagem é considerado como tendo votado.
 
 ---
 
@@ -104,7 +97,7 @@ Se você tem **mais de um personagem**, a verificação de voto no BC é feita p
 
 Checklist:
 
-- [ ] O nick está **exatamente igual** ao do Zenit? (maiúsculas, espaços, acentos)
+- [ ] O nick está **exatamente igual** ao do Painel? (maiúsculas, espaços, acentos)
 - [ ] Sua conta no Timaceta está **ativa**? (peça a um Admin para verificar)
 - [ ] Você **salvou** o personagem nos **últimos 30 dias**?
 - [ ] Seu nível atinge o **mínimo configurado** para o clã?

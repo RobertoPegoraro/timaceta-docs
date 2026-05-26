@@ -7,7 +7,7 @@ O alistamento automático é um **job (tarefa agendada)** que roda automaticamen
 O alistamento automático é ativado por um Admin nas configurações do clã (`Alistamento Automático: Sim`). Para que funcione, é necessário:
 
 - **E-mail e senha do Líder** (ou Vice-Líder) cadastrados no sistema
-- Pelo menos um login válido no Zenit
+- Pelo menos um login válido no Painel
 
 ::: warning
 Se o login falhar **5 vezes consecutivas**, o alistamento automático é **desativado automaticamente** e os admins recebem uma notificação push. Um Admin precisa reativar e verificar as credenciais.
@@ -17,9 +17,9 @@ Se o login falhar **5 vezes consecutivas**, o alistamento automático é **desat
 
 ## Fluxo Detalhado (a cada 5 minutos)
 
-### 1. Login no Zenit
+### 1. Login
 
-O sistema tenta fazer login no Zenit usando as credenciais salvas:
+O sistema tenta fazer login no Painel usando as credenciais salvas:
 
 1. Tenta o **e-mail e senha do Líder**
 2. Se falhar, tenta o **Vice-Líder**
@@ -30,7 +30,7 @@ A sessão de login (cookies) dura **6 horas**. Enquanto válida, o sistema não 
 
 ### 2. Leitura da página do clã
 
-O sistema acessa a página do clã no Zenit e identifica:
+O sistema acessa a página do clã no Portal e identifica:
 
 - Lista de **membros efetivos** (Líder, Vice-Líderes, Membros)
 - Lista de **alistados pendentes** (quem pediu para entrar)
@@ -71,12 +71,11 @@ O cadastro do personagem no app deve ter sido atualizado nos **últimos 30 dias*
 Se o clã tiver a opção `Verificar voto em evento` ativada, o sistema verifica se o personagem (ou melhor, o usuário vinculado a ele) **votou no último evento de Bless Castle encerrado**.
 
 - **Não votou** → Status **PENDENTE**
-  - Uma notificação push é enviada ao jogador (máximo 1 vez a cada 6 horas):
-    > "Você está pendente no alistamento. Acesse o app e vote no último evento de BC."
+  - Uma notificação push é enviada ao jogador (máximo 1 vez a cada 6 horas se o alistamento ainda estiver pendente):
   - O personagem **não é removido** — fica aguardando
 
 ::: tip Piloto e alts
-Se você tem mais de um personagem, a verificação de voto é feita pelo **usuário do app**, não pelo personagem em si. Ou seja, se você votou com qualquer conta vinculada ao mesmo usuário, todos os seus personagens são considerados como tendo votado.
+Se você tem mais de um personagem, a verificação de voto é feita pelo **Nick do personagem**, não pelo usuário em si. Ou seja, se você votou com um personagem específico, apenas esse personagem é considerado como tendo votado.
 :::
 
 ### 4. Abertura de vagas (se necessário)
@@ -93,7 +92,7 @@ Se há alistados válidos mas **sem vagas disponíveis**, o sistema:
 
 Para cada alistado que passou em todas as verificações:
 
-1. O sistema clica em "Aceitar" no Zenit
+1. O sistema aceita no Painel
 2. O usuário recebe uma **notificação push**:
    > "Nick foi aceito no clã NomeDoCla!"
 3. O personagem é marcado internamente como "recém-aceito" por 30 minutos (proteção)
@@ -133,11 +132,11 @@ Votou no último BC? ─────────── NÃO ──→ ⏳ Penden
 **O automático roda em qual horário?**
 A cada 5 minutos, 24 horas por dia, 7 dias por semana.
 
-**O que acontece se o Zenit estiver offline?**
+**O que acontece se o Painel estiver offline?**
 O ciclo falha e tenta novamente no próximo ciclo de 5 minutos.
 
 **Fui rejeitado mas corrigi o problema. Preciso fazer algo?**
-Não. O sistema verifica automaticamente no próximo ciclo. Basta corrigir o problema (atualizar cadastro, votar no BC etc.) e aguardar.
+Sim. Enviar alistamento novamente e aguardar o processamento.
 
 **O automático remove membros sem aviso?**
 Apenas membros que estão **offline há muito tempo** e quando há fila de alistados válidos sem vaga. Membros ativos raramente são afetados.

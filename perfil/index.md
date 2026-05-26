@@ -15,8 +15,9 @@ O perfil é a sua identidade dentro do app Timaceta. Ele identifica quem você �
 
 **Obrigatório.** Digite seu nome e sobrenome. O sistema exige pelo menos **duas palavras** (nome + sobrenome).
 
-- Correto: `Roberto Pegoraro`
-- Incorreto: `Roberto` (apenas um nome)
+- Correto: `João da Silva Santos`
+- Incorreto: `João` (apenas um nome)
+- Incorreto: `Porronca` (Nick do personagem)
 
 Esse nome é usado pela liderança para identificar você no sistema.
 

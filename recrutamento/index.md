@@ -11,27 +11,22 @@ Esta seção é diferente do [Alistamento](/alistamento/). O recrutamento é o p
 ```
 Candidato preenche o formulário
           ↓
-Admin/Recrutador cria o recrutamento no app
-          ↓
 Admin ativa a votação
           ↓
-Membros votam: SIM / NÃO / SEM POSIÇÃO
+Membros votam: SIM / NÃO
           ↓
 Admin encerra a votação e decide: APROVADO ou REJEITADO
-          ↓
-Notificações enviadas
 ```
 
 ## Quem pode fazer o quê
 
 | Ação | Membro | Recrutador | Admin |
-|---|---|---|---|
+|---|--|---|---|
 | Votar em candidatos | ✅ | ✅ | ✅ |
-| Criar/editar recrutamento | ❌ | ✅ | ✅ |
 | Ativar votação | ❌ | ✅ | ✅ |
 | Aprovar/rejeitar | ❌ | ✅ | ✅ |
-| Ver todos os votos | ❌ | ✅ | ✅ |
-| Deletar recrutamento | ❌ | ❌ | ✅ |
+| Ver todos os votos | ✅ | ✅ | ✅ |
+| Deletar recrutamento | ❌ | ✅ | ✅ |
 
 ## Status de um recrutamento
 

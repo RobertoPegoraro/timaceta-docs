@@ -29,8 +29,8 @@ O formulário de candidatura contém:
 ## Regras de votação
 
 - **Um voto por membro** — não é possível votar mais de uma vez no mesmo candidato
-- Você **não pode alterar** seu voto após confirmar
-- Votos são visíveis para Admins e Recrutadores (não para membros comuns)
+- Você **pode alterar** seu voto após confirmar
+- Votos são visíveis para todos através do ícone verde
 
 ## Quando posso votar?
 
@@ -40,5 +40,4 @@ Apenas quando a votação do candidato está **ativa**. Se a votação estiver e
 
 Você receberá uma notificação push quando:
 - Um novo recrutamento for criado (enviada para Recrutadores)
-- A votação de um candidato for aberta (enviada para o grupo configurado)
-- A votação for encerrada com resultado
+- A votação de um candidato for aberta (enviada para todos)

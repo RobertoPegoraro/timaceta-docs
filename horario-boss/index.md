@@ -40,7 +40,7 @@ Para cada boss ativo você vê:
 
 ## Horários completos
 
-Toque em **"Ver todos os horários"** para abrir um painel com a lista completa de subservidores e seus respectivos horários de boss, ordenados por horário.
+Toque no menu superior direito para ver o detalhamento dos Bosses por horário e local de surgimento.
 
 ---
 

@@ -41,20 +41,6 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 
 **Obrigatório.** A classe do personagem. Selecione na lista:
 
-| Classe | Descrição |
-|---|---|
-| Guerreira | Combate corpo a corpo, alta defesa |
-| Assassina | Alta velocidade de ataque, dano físico |
-| Arqueira | Ataque à distância com arco |
-| Lutador | Combate físico, alta força |
-| Pike | Combate com lança |
-| Mecânico | Utiliza mecânicas e armadilhas |
-| Xamã | Suporte e magia |
-| Sacerdotisa | Cura e suporte ao grupo |
-| Cavaleiro | Combate montado, defesa alta |
-| Mago | Dano mágico à distância |
-| Atalanta | Classe especial de combate |
-
 ---
 
 ### Relíquias
@@ -70,17 +56,13 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 | Mokova | | Yagditha | |
 | Midranda | | | |
 
-Relíquias são artefatos especiais que conferem habilidades únicas ao personagem. Registrá-las ajuda a liderança a conhecer o potencial do seu personagem para eventos.
-
 ---
 
 ### Possui Verthex de ataque?
 
 **Obrigatório.** Selecione **Sim** ou **Não**.
 
-O Verthex de ataque é um item raro que aumenta o dano. Se selecionar **Sim**, um campo adicional aparece:
-
-**Aging Verthex Ataque:** O nível de "aging" (envelhecimento) do item. Quanto maior, mais poderoso. Valores de **0 a 999**.
+**Aging Verthex Ataque:** O nível de "aging" do item.
 
 ---
 
@@ -88,9 +70,8 @@ O Verthex de ataque é um item raro que aumenta o dano. Se selecionar **Sim**, u
 
 **Obrigatório.** Selecione **Sim** ou **Não**.
 
-A armadura Verthex é um conjunto de equipamento de alto nível. Se selecionar **Sim**, aparece:
 
-**Aging Armadura Verthex:** O nível de aging da armadura. Valores de **0 a 999**.
+**Aging Armadura Verthex:** O nível de "aging" do item.
 
 ---
 
@@ -98,17 +79,13 @@ A armadura Verthex é um conjunto de equipamento de alto nível. Se selecionar *
 
 **Obrigatório.** Selecione **Sim** ou **Não**.
 
-As luvas do Greedy são obtidas com a relíquia Greedy e conferem bônus de ataque. Se selecionar **Sim**, aparece:
-
-**Aging Luvas Greedy:** O nível de aging das luvas. Valores de **0 a 999**.
+**Aging Luvas Greedy:** O nível de "aging" do item.
 
 ---
 
 ### Possui amuleto do Yag?
 
 **Obrigatório.** Selecione **Sim** ou **Não**.
-
-O amuleto do Yagditha (Yag) é um item de suporte especial. Não tem campo de aging.
 
 ---
 

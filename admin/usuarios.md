@@ -43,7 +43,7 @@ Usuários com conta inativa não conseguem fazer login e são bloqueados com uma
    - **Recrutador** — gerencia candidatos
    - **Coordenador BC** — eventos de Bless Castle
    - **Coordenador PvP** — eventos PvP
-   - **Gerenciador de Clã** — gerencia membros no Zenit
+   - **Gerenciador de Clã** — gerencia membros do clã
 3. Salve
 
 ::: warning
