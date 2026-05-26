@@ -25,8 +25,7 @@ Abra o menu tocando no ícone **☰** (canto superior esquerdo). As opções exi
 | Gestão | Clãs | Admin |
 | Gestão | Usuários | Admin |
 | Gestão | Configurações | Admin |
-| Gestão | Relatórios | Admin, Coord. BC |
-| Rodapé | Política de Privacidade | Todos (se configurado) |
+| Rodapé | Política de Privacidade | Todos |
 | Rodapé | Sair | Todos |
 
 ---

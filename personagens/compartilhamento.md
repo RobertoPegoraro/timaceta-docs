@@ -82,4 +82,4 @@ Sim, positivamente. Se o personagem está compartilhado com você e sua conta es
 Não há limite definido pelo sistema.
 
 **E se o dono original sair do clã e excluir a conta?**
-O vínculo original é removido. Os usuários que tinham o personagem compartilhado perdem o acesso. Nesse caso, um dos usuários deve criar um novo cadastro do personagem.
+Os usuários que tinham o personagem compartilhado perdem o acesso porém as pessoas que tem compartilhamento (share) continuam com o personagem.

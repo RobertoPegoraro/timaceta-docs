@@ -11,18 +11,18 @@ Esta página explica como cadastrar, editar e gerenciar os clãs no sistema.
 
 ### Campos do clã
 
-| Campo | Obrigatório | Descrição |
-|---|---|---|
-| Nome do clã | Sim | Nome exibido no app |
-| ID do clã (Zenit) | Sim | Identificador numérico do clã no Zenit |
-| Servidor | Sim | Awell, Migal, Midranda, Cronus ou Idhas |
-| E-mail do Líder | Sim | Conta Zenit do líder |
-| Senha do Líder | Sim | Usada para login automático |
-| E-mail do Vice-Líder | Sim | Conta Zenit do vice-líder |
-| Senha do Vice-Líder | Sim | Usada como fallback se líder falhar |
-| Nível mínimo | Sim | Nível mínimo para ser aceito (0 = sem restrição) |
-| Alistamento Automático | Sim | Ativa/desativa o job automático |
-| Verificar voto em BC | Sim | Exige que o candidato tenha votado no último BC |
+| Campo | Obrigatório | Descrição                                                   |
+|---|---|-------------------------------------------------------------|
+| Nome do clã | Sim | Nome exibido no app (precisa ser exatamento igual no painel) |
+| ID do clã (Zenit) | Sim | Identificador numérico do clã no site da Zenit              |
+| Servidor | Sim | Awell, Migal, Midranda, Cronus ou Idhas                     |
+| E-mail do Líder | Sim | Conta Zenit do líder                                        |
+| Senha do Líder | Sim | Usada para login automático                                 |
+| E-mail do Vice-Líder | Sim | Conta Zenit do vice-líder                                   |
+| Senha do Vice-Líder | Sim | Usada como fallback se líder falhar                         |
+| Nível mínimo | Sim | Nível mínimo para ser aceito (0 = sem restrição)            |
+| Alistamento Automático | Sim | Ativa/desativa o job automático                             |
+| Verificar voto em BC | Sim | Exige que o candidato tenha votado no último BC             |
 
 ::: warning Segurança das senhas
 As senhas são armazenadas com criptografia **AES-256** no banco de dados. Elas nunca são exibidas em texto puro após salvas.
@@ -67,36 +67,6 @@ O alistamento também pode ser **desativado automaticamente** pelo sistema se o 
 3. Salve
 
 Quando ativado, candidatos que não votaram no último BC ficam com status **Pendente** na fila de alistamento, até que votem.
-
----
-
-## Resetar sessão de login
-
-Caso as cookies de sessão estejam corrompidas ou expiradas antes do prazo, você pode forçar um novo login:
-
-1. Acesse o clã
-2. Toque em **Resetar Sessão**
-3. O sistema fará um novo login completo no próximo ciclo de alistamento
-
----
-
-## Ver membros do clã
-
-Esta funcionalidade está disponível para Admins e Gerenciadores de Clã:
-
-1. Acesse o clã
-2. Toque em **Ver Membros**
-3. Você verá a lista completa do Zenit com:
-   - Posição (Líder, Vice, Membro, Alistado)
-   - Nick, classe, nível
-   - Data de entrada no clã
-   - Último acesso registrado
-4. Alistados aparecem no topo com botões de **Aceitar** e **Rejeitar**
-5. Membros efetivos têm opção de **Remover**
-
-::: warning
-A ordem exibe alistados primeiro, depois offline (por tempo de inatividade), depois online.
-:::
 
 ---
 

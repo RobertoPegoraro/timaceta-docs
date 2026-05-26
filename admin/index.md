@@ -25,7 +25,6 @@ O menu de administração aparece no menu lateral apenas para usuários com carg
 | Ativar/desativar usuários e cargos | [Gerenciar Usuários](/admin/usuarios) |
 | Configurações globais do sistema | [Configurações](/admin/configuracoes) |
 | Enviar notificações manuais | [Notificações](/admin/notificacoes) |
-| Gerenciar avisos e dicas | [Avisos e Dicas](/admin/avisos) |
 
 ---
 

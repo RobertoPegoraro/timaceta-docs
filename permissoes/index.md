@@ -56,10 +56,10 @@ Responsável pelos eventos PvP.
 
 ### Gerenciador de Clã
 
-Gerencia a lista de membros diretamente no Zenit, via app.
+Gerencia a lista de membros diretamente no Painel, via app.
 
 **Pode fazer (além do membro comum):**
-- Ver lista de membros do clã (dados do Zenit)
+- Ver lista de membros do clã (dados do Painel)
 - Aceitar alistados manualmente
 - Rejeitar alistados
 - Remover membros do clã
@@ -85,25 +85,25 @@ Acesso total ao sistema.
 
 ## Tabela resumo de permissões
 
-| Funcionalidade | Membro | Recrutador | Coord. BC | Coord. PvP | Ger. Clã | Admin |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Login e perfil | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Ver avisos/dicas/regras | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Cadastrar personagens | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Votar em recrutamento | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Votar em eventos | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Alistamento manual | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Gerenciar recrutamento | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
-| Criar evento BC | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ |
-| Criar evento PvP | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Gerenciar grupos PvP | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Ver membros do clã (Zenit) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Aceitar/rejeitar alistados | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Gerenciar clãs | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Gerenciar usuários | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Configurações do sistema | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Enviar notificações | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Editar avisos/dicas/regras | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Funcionalidade              | Membro | Recrutador | Coord. BC | Coord. PvP | Ger. Clã | Admin |
+|-----------------------------|:---:|:---:|:---:|:---:|:---:|:---:|
+| Login e perfil              | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Ver avisos/dicas/regras     | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Cadastrar personagens       | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Votar em recrutamento       | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Votar em eventos            | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Alistamento manual          | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gerenciar recrutamento      | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Criar evento BC             | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ |
+| Criar evento PvP            | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ |
+| Gerenciar grupos PvP        | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ |
+| Ver membros do clã (Painel) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Aceitar/rejeitar alistados  | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Gerenciar clãs              | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Gerenciar usuários          | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Configurações do sistema    | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Enviar notificações         | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Editar avisos/dicas/regras  | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 ---
 

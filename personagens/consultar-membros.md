@@ -31,8 +31,6 @@ A busca localiza o personagem pelo nick e confirma que:
 - O nick está **cadastrado no app** Timaceta
 - O usuário vinculado ao personagem está **ativo** no sistema
 
-A busca **não diferencia maiúsculas de minúsculas** — você pode digitar `knightrobert` e encontrar `KnightRobert`.
-
 ---
 
 ## Para que serve

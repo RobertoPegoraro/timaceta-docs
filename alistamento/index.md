@@ -22,7 +22,7 @@ Independente do modo, o sistema verifica as mesmas regras antes de aceitar um al
 ## Processo geral
 
 ```
-Você envia pedido no Zenit
+Você envia pedido de alistamento (Painel ou via APP)
         ↓
 Sistema Timaceta verifica as regras
         ↓
@@ -39,7 +39,7 @@ Sistema Timaceta verifica as regras
 
 ## Vagas no clã
 
-O Zenit permite no máximo **65 membros** por clã. Quando não há vagas disponíveis, o sistema pode:
+O Painel permite no máximo **65 membros** por clã. Quando não há vagas disponíveis, o sistema pode:
 
 - Verificar se existem membros **offline há muito tempo**
 - Remover os membros mais inativos para abrir vagas
@@ -52,7 +52,7 @@ O Zenit permite no máximo **65 membros** por clã. Quando não há vagas dispon
 Verifique se seu personagem está cadastrado, ativo, com nível suficiente e com cadastro atualizado. Veja [Regras de Aceite e Rejeição](/alistamento/regras).
 
 **Por que está "Pendente"?**
-Você precisa votar no último evento de BC encerrado. Após votar, o sistema te aceita no próximo ciclo (em até 5 minutos).
+Você precisa votar no último evento de BC encerrado. Caso tenha votado, o sistema te aceita no próximo ciclo (em até 5 minutos).
 
 **Quanto tempo leva para ser aceito?**
 O sistema automático roda a cada **5 minutos**. Se passar em todas as regras, você é aceito em até 5 minutos.

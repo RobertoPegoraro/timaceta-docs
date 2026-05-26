@@ -123,18 +123,18 @@ Use periodicamente para lembrar membros de completar o perfil, especialmente ap�
 
 Além das manuais, o sistema envia notificações automáticas em vários momentos sem intervenção humana:
 
-| Evento | Quem recebe |
-|---|---|
-| Alistamento aceito | O jogador aceito |
-| Alistamento rejeitado (nível / desatualizado) | O jogador rejeitado |
-| Alistamento pendente (falta voto no BC) | O jogador pendente (1x a cada 6h) |
-| Alistamento automático desativado por erro | Admins |
-| Login no Zenit falhou 5 vezes | Admins |
-| Novo recrutamento criado | Recrutadores |
-| Votação de recrutamento aberta | Membros configurados |
-| Recrutamento aprovado/rejeitado | Votantes do recrutamento |
-| Evento criado | Membros configurados |
-| Regras atualizadas | Todos os usuários |
+| Evento                                        | Quem recebe                       |
+|-----------------------------------------------|-----------------------------------|
+| Alistamento aceito                            | O jogador aceito                  |
+| Alistamento rejeitado (nível / desatualizado) | O jogador rejeitado               |
+| Alistamento pendente (falta voto no BC)       | O jogador pendente (1x a cada 6h) |
+| Alistamento automático desativado por erro    | Admins                            |
+| Login alistamento automático falhou 5 vezes   | Admins                            |
+| Novo recrutamento criado                      | Admins e Recrutadores             |
+| Votação de recrutamento aberta                | Membros configurados              |
+| Recrutamento aprovado/rejeitado               | Votantes do recrutamento          |
+| Evento criado                                 | Membros configurados              |
+| Regras atualizadas                            | Todos os usuários                 |
 
 ---
 
