@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Timaceta"
   text: "Manual do Sistema"
-  tagline: Documentação completa para gestão de clãs no Priston Tales (Zenit)
+  tagline: Documentação completa para gestão de clãs no Priston Tales (Painel)
   actions:
     - theme: brand
       text: Começar por aqui

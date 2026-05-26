@@ -13,7 +13,7 @@ Esta página explica cada campo do formulário de personagem e o que ele signifi
 
 ### Nick
 
-**Obrigatório.** O nome do personagem exatamente como aparece no Zenit.
+**Obrigatório.** O nome do personagem exatamente como aparece no Painel.
 
 ::: warning Atenção ao nick
 O sistema busca o nick de forma exata. Se o nick no jogo for `KnightRobert`, não use `knightrobert` ou `Knight Robert`. **Maiúsculas e minúsculas importam.**

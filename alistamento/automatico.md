@@ -1,6 +1,6 @@
 # Alistamento Automático
 
-O alistamento automático é um **job (tarefa agendada)** que roda automaticamente a cada 5 minutos e processa todos os pedidos de entrada pendentes no Zenit, sem necessidade de intervenção humana.
+O alistamento automático é um **job (tarefa agendada)** que roda automaticamente a cada 5 minutos e processa todos os pedidos de entrada pendentes no Painel, sem necessidade de intervenção humana.
 
 ## Como ativar para o seu clã
 

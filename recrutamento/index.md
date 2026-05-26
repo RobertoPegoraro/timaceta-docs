@@ -3,7 +3,7 @@
 O recrutamento é o processo de avaliação de candidatos ao clã. Diferente do alistamento (que é automático), o recrutamento envolve uma **votação da comunidade** e a decisão da liderança.
 
 ::: info
-Esta seção é diferente do [Alistamento](/alistamento/). O recrutamento é o processo de candidatura e votação; o alistamento é a entrada técnica no clã no Zenit.
+Esta seção é diferente do [Alistamento](/alistamento/). O recrutamento é o processo de candidatura e votação; o alistamento é a entrada técnica no clã no Painel.
 :::
 
 ## Como funciona o processo
