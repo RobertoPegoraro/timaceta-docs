@@ -1,0 +1,46 @@
+# Como Votar em Recrutamentos
+
+Qualquer membro ativo pode participar da votação de candidatos. Seu voto é importante para a decisão da liderança.
+
+![Tela de votação de candidato com botões SIM, NÃO e SEM POSIÇÃO](/img/recrutamento-votacao-tela.png)
+
+## Passo a Passo
+
+1. Abra o menu lateral e vá em **Recrutamento**
+2. Você verá a lista de candidatos. Candidatos com **votação ativa** aparecem primeiro
+3. Toque no candidato que deseja avaliar
+4. Leia as informações do formulário preenchido pelo candidato
+5. Role para baixo e toque no seu voto:
+   - **SIM** — Você recomenda a entrada do candidato
+   - **NÃO** — Você não recomenda
+   - **SEM POSIÇÃO** — Você se abstém de opinar
+6. Opcionalmente, adicione um **comentário** explicando sua posição
+7. Toque em **Confirmar**
+
+## Informações do candidato
+
+O formulário de candidatura contém:
+
+- Dados pessoais (nome, idade, cidade)
+- Nick e classe do personagem
+- Histórico de participação em eventos (BC, SoD)
+- Disponibilidade para usar TeamSpeak
+- Outros personagens e relíquias
+- Motivação para entrar no clã
+
+## Regras de votação
+
+- **Um voto por membro** — não é possível votar mais de uma vez no mesmo candidato
+- Você **não pode alterar** seu voto após confirmar
+- Votos são visíveis para Admins e Recrutadores (não para membros comuns)
+
+## Quando posso votar?
+
+Apenas quando a votação do candidato está **ativa**. Se a votação estiver encerrada, você poderá ver o resultado mas não alterar.
+
+## Notificações
+
+Você receberá uma notificação push quando:
+- Um novo recrutamento for criado (enviada para Recrutadores)
+- A votação de um candidato for aberta (enviada para o grupo configurado)
+- A votação for encerrada com resultado

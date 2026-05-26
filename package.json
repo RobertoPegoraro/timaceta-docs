@@ -1,0 +1,16 @@
+{
+  "name": "timaceta-docs",
+  "version": "1.0.0",
+  "description": "Documentação do Timaceta App",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "python": "^0.0.4"
+  }
+}
