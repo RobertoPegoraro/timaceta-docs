@@ -1,6 +1,6 @@
 # Alistamento — Visão Geral
 
-O **alistamento** é o processo pelo qual um personagem entra para o clã no Zenit. O Timaceta oferece dois modos:
+O **alistamento** é o processo pelo qual um personagem entra para o clã no Painel. O Timaceta oferece dois modos:
 
 | Modo | Quem aciona | Quando usar |
 |---|---|---|

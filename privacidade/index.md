@@ -27,12 +27,12 @@ A política de privacidade do Timaceta detalha como os seus dados são coletados
 - **Token de dispositivo:** para envio de notificações push (FCM)
 - **Auditorias:** registro de aceite de termos (IP, dispositivo, data/hora)
 
-### Dados das credenciais Zenit
+### Dados das credenciais Painel
 
 Quando você usa o alistamento (manual ou automático):
 
 - **Alistamento automático:** as credenciais do líder/vice-líder são armazenadas **criptografadas** (AES-256) no banco de dados para uso pelo sistema automático
-- **Alistamento manual:** suas credenciais **não são armazenadas nos servidores**. Elas são enviadas diretamente ao Zenit via HTTPS e descartadas após o uso
+- **Alistamento manual:** suas credenciais **não são armazenadas nos servidores**. Elas são enviadas diretamente ao Painel via HTTPS e descartadas após o uso
 - **"Lembrar-me":** se ativado, as credenciais ficam salvas **somente no seu dispositivo** (Keystore Android / Keychain iOS). O desenvolvedor não tem acesso a elas
 
 ### Como os dados são usados

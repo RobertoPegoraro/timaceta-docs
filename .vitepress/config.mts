@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Timaceta — Manual do Sistema',
-  description: 'Documentação completa do app Timaceta para gestão de clãs no Priston Tales (Zenit)',
+  description: 'Documentação completa do app Timaceta para gestão de clãs no Priston Tales (Painel)',
   lang: 'pt-BR',
   base: '/timaceta-docs/',
 
@@ -104,7 +104,7 @@ export default defineConfig({
     socialLinks: [],
 
     footer: {
-      message: 'Timaceta — Gestão de Clãs para Priston Tales (Zenit)',
+      message: 'Timaceta — Gestão de Clãs para Priston Tales (Painel)',
       copyright: 'Documentação interna — uso restrito ao clã',
     },
 

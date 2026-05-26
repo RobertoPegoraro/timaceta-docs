@@ -8,7 +8,7 @@ Esta página descreve em detalhe as funcionalidades exclusivas de cada cargo.
 
 ### Gestão de Clãs
 
-- Cadastrar novos clãs com suas credenciais do Zenit
+- Cadastrar novos clãs com suas credenciais do Painel
 - Editar informações (nome, servidor, credenciais, nível mínimo)
 - Ativar/desativar o alistamento automático por clã
 - Ativar/desativar a exigência de voto no BC por clã
@@ -83,12 +83,12 @@ Esta página descreve em detalhe as funcionalidades exclusivas de cada cargo.
 
 ## Funcionalidades do Gerenciador de Clã
 
-- Acessar a lista atualizada de membros do clã (dados do Zenit)
+- Acessar a lista atualizada de membros do clã (dados do Painel)
 - Ver: posição, nick, classe, nível, data de entrada, último acesso
-- Aceitar alistados manualmente (sem precisar ir ao site Zenit)
+- Aceitar alistados manualmente (sem precisar ir ao site Painel)
 - Rejeitar alistados
 - Remover membros do clã
 
 ::: warning
-A remoção de membros pelo app é **imediata e irreversível** no Zenit. Use com cuidado.
+A remoção de membros pelo app é **imediata e irreversível** no Painel. Use com cuidado.
 :::

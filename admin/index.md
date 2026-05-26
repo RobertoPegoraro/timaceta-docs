@@ -46,7 +46,7 @@ Se necessário, use **Resetar Sessão** para forçar um novo login no próximo c
 
 ## Boas práticas
 
-- **Atualize as credenciais** do clã sempre que a senha do líder/vice-líder for alterada no Zenit
+- **Atualize as credenciais** do clã sempre que a senha do líder/vice-líder for alterada no Painel
 - **Verifique regularmente** se o alistamento automático está ativo nos clãs configurados
 - **Ative novos usuários** rapidamente para não deixar membros bloqueados
 - **Mantenha os avisos atualizados** para que os membros tenham informações recentes
