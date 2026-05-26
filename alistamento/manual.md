@@ -25,8 +25,6 @@ Você precisará das suas **credenciais do Zenit** (e-mail e senha da conta Zeni
 
 ### Etapa 1 — Aceitar o Termo de Alistamento
 
-![Termo de ciência sobre alistamento manual](/img/alistamento-manual-termo.png)
-
 Na primeira vez que usar o alistamento manual, ou sempre que o termo for atualizado, você verá uma tela com o **Termo de Ciência sobre Alistamento**. Leia e aceite para prosseguir.
 
 O termo explica:
@@ -39,8 +37,6 @@ O termo explica:
 Na tela de Alistamento, você verá a lista de clãs disponíveis. Toque no clã desejado para iniciar o processo.
 
 ### Etapa 3 — Login no Zenit
-
-![Formulário de login Zenit com campos e-mail, senha e Lembrar-me](/img/alistamento-manual-login.png)
 
 Uma janela de diálogo abrirá com o formulário de login:
 
@@ -59,13 +55,9 @@ Se o Zenit demorar mais de 6 segundos para responder, uma mensagem aparecerá: *
 
 ### Etapa 4 — Selecionar a conta do Zenit
 
-![Lista de IDs/contas Zenit para seleção](/img/alistamento-manual-ids.png)
-
 Após o login, o sistema listará as **contas (IDs)** associadas ao seu e-mail no Zenit. Selecione a conta que contém o personagem que deseja alistar.
 
 ### Etapa 5 — Selecionar o personagem
-
-![Lista de personagens da conta Zenit para seleção](/img/alistamento-manual-personagens.png)
 
 Após selecionar a conta, você verá a lista de **personagens** disponíveis nela. Selecione o personagem que deseja alistar ao clã.
 
@@ -74,8 +66,6 @@ Se o personagem selecionado não estiver cadastrado no Timaceta, você verá um 
 :::
 
 ### Etapa 6 — Confirmação
-
-![Tela de sucesso confirmando que o pedido de alistamento foi enviado](/img/alistamento-manual-sucesso.png)
 
 O sistema envia o pedido de alistamento ao Zenit. Uma tela de **sucesso** confirmará que o pedido foi enviado. A partir daí, o alistamento automático irá processar e aceitar sua entrada nas próximas verificações (em até 5 minutos, se passar em todas as regras).
 

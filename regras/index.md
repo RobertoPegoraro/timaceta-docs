@@ -9,8 +9,6 @@ A tela exibe as regras do clã em formato de texto formatado. No topo da página
 
 ---
 
-![Tela de regras com texto formatado e data da última atualização](/img/regras-tela.png)
-
 ## Lendo as regras
 
 As regras são exibidas com formatação (negrito, listas, links clicáveis). O texto é selecionável — você pode copiar trechos se precisar.
@@ -20,8 +18,6 @@ Links dentro das regras podem abrir o navegador externo ao serem tocados.
 ---
 
 ## Editando as regras (Admin)
-
-![Modo de edição das regras com campo de texto Markdown e ícone de lápis destacado](/img/regras-editar-tela.png)
 
 Se você tem cargo de **Admin**, um ícone de edição aparece no canto superior direito da tela.
 

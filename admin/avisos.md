@@ -6,8 +6,6 @@ Admins podem gerenciar os avisos e dicas exibidos para todos os membros.
 
 Os avisos são informações importantes para todo o clã — anúncios, mudanças de regras, comunicados.
 
-![Lista de avisos do clã com título e data](/img/admin-avisos-lista.png)
-
 ### Criar um aviso
 
 1. Vá em **Avisos**
@@ -36,8 +34,6 @@ A data de criação é registrada automaticamente.
 ## Dicas
 
 As dicas são guias e tutoriais organizados por tags para fácil consulta.
-
-![Lista de dicas com título e tags de categoria](/img/admin-dicas-lista.png)
 
 ### Criar uma dica
 

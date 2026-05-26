@@ -2,8 +2,6 @@
 
 Qualquer membro ativo pode participar da votação de candidatos. Seu voto é importante para a decisão da liderança.
 
-![Tela de votação de candidato com botões SIM, NÃO e SEM POSIÇÃO](/img/recrutamento-votacao-tela.png)
-
 ## Passo a Passo
 
 1. Abra o menu lateral e vá em **Recrutamento**

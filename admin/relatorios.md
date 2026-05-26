@@ -10,8 +10,6 @@ O sistema oferece dois relatórios exportáveis diretamente para uma planilha do
 
 ---
 
-![Tela de relatórios com opções Lista de Personagens e Participações BC](/img/admin-relatorios-tela.png)
-
 ## Relatório 1 — Lista de Personagens
 
 Exporta os dados completos de todos os usuários ativos e seus personagens para uma planilha Google Sheets.
@@ -31,8 +29,6 @@ Admin
 ::: tip
 O sistema salva o ID da última planilha usada. Na próxima vez o campo já virá preenchido.
 :::
-
-![Campo de ID da planilha e botão Atualizar Planilha no relatório de personagens](/img/admin-relatorios-personagens.png)
 
 ### Dados exportados
 
@@ -77,8 +73,6 @@ Admin e Coordenador BC
 ::: tip
 O sistema salva o período selecionado como padrão para a próxima vez.
 :::
-
-![Campo de ID de planilha e seletor de período no relatório de BC](/img/admin-relatorios-bc.png)
 
 ### Estrutura da planilha exportada
 

@@ -7,8 +7,6 @@ Esta página explica cada campo do formulário de personagem e o que ele signifi
 - **Novo personagem:** Vá em Personagens → toque em **+**
 - **Editar existente:** Vá em Personagens → toque no personagem desejado
 
-![Formulário de personagem — campos Nick, Nível e Classe](/img/personagens-form-topo.png)
-
 ---
 
 ## Campos do formulário
@@ -61,8 +59,6 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 
 ### Relíquias
 
-![Seleção múltipla de relíquias](/img/personagens-reliquias.png)
-
 **Opcional.** Selecione as relíquias que seu personagem possui. Você pode selecionar mais de uma.
 
 | Relíquia | | Relíquia | |
@@ -77,8 +73,6 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 Relíquias são artefatos especiais que conferem habilidades únicas ao personagem. Registrá-las ajuda a liderança a conhecer o potencial do seu personagem para eventos.
 
 ---
-
-![Campos de itens: Verthex, Greedy, Yag e Quests](/img/personagens-form-itens.png)
 
 ### Possui Verthex de ataque?
 

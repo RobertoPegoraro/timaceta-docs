@@ -13,8 +13,6 @@ Esta seção só aparece no menu se um Admin tiver ativado em **Configurações 
 
 ---
 
-![Tela de horário de boss com dropdown de servidor e grid de bosses ativos](/img/boss-tela.png)
-
 ## Selecionando o servidor
 
 No topo da tela há um dropdown para escolher o servidor:

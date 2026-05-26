@@ -2,8 +2,6 @@
 
 Esta seção é para **Recrutadores** e **Admins** que gerenciam o processo de recrutamento.
 
-![Tela de gerenciamento de candidato com opções Ativar Votação, Ver Votos, Aprovar e Rejeitar](/img/recrutamento-gerenciar-tela.png)
-
 ## Criar um novo recrutamento
 
 1. Vá em **Recrutamento**
@@ -34,8 +32,6 @@ Quando quiser encerrar as votações:
 3. O recrutamento passa para status "inativo"
 
 ## Ver os votos
-
-![Tela de contagem de votos com SIM, NÃO, SEM POSIÇÃO e lista de votantes](/img/recrutamento-votos-tela.png)
 
 1. Acesse o recrutamento
 2. Toque em **Ver Votos**

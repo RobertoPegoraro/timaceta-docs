@@ -11,8 +11,6 @@ A funcionalidade **Consultar Membros** permite verificar rapidamente se um nick 
 
 ## Como usar
 
-![Campo de busca de nick com ícone de lupa](/img/consultar-membros-busca.png)
-
 1. Digite o **nick** do personagem no campo de busca
 2. Pressione **Enter** ou toque no ícone de lupa
 3. O resultado aparece imediatamente abaixo:
@@ -25,8 +23,6 @@ A funcionalidade **Consultar Membros** permite verificar rapidamente se um nick 
 > ❌ Nenhum membro encontrado com esse nick
 
 ---
-
-![Resultado da busca com nick encontrado e status de membro ativo](/img/consultar-membros-resultado.png)
 
 ## O que a busca verifica
 

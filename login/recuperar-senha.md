@@ -4,8 +4,6 @@ Se você esqueceu sua senha de acesso ao app Timaceta, é possível redefini-la 
 
 ## Passo a Passo
 
-![Tela de recuperar senha](/img/recuperar-senha-tela.png)
-
 1. Na tela de login, toque em **"Esqueci minha senha"**
 2. Digite o **e-mail** que você usou para criar a conta
 3. Toque em **Enviar**

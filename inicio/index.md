@@ -6,8 +6,6 @@ A tela inicial é o ponto de entrada do app após o login. Ela gerencia seu esta
 
 ## Menu lateral
 
-![Tela inicial com ícone de menu ☰ destacado](/img/inicio-menu-icone.png)
-
 Abra o menu tocando no ícone **☰** (canto superior esquerdo). As opções exibidas dependem do seu cargo:
 
 | Seção | Opção | Quem vê |
@@ -35,10 +33,6 @@ Abra o menu tocando no ícone **☰** (canto superior esquerdo). As opções exi
 
 ## Ícone de notificações
 
-![Menu lateral aberto com opções visíveis](/img/inicio-menu-aberto.png)
-
-![Ícone de sino com badge de notificações não lidas](/img/inicio-notificacoes.png)
-
 No canto superior direito há um ícone de sino com um **badge numérico** indicando quantas notificações não lidas você tem.
 
 Toque no ícone para ver o histórico de notificações in-app recebidas (alistamento, recrutamento, eventos etc.).
@@ -50,8 +44,6 @@ Toque no ícone para ver o histórico de notificações in-app recebidas (alista
 O app verifica algumas condições toda vez que você abre. Se algo estiver errado, um alerta aparece automaticamente:
 
 ### Personagem desatualizado
-
-![Alerta de personagem desatualizado na tela inicial](/img/inicio-alerta-personagem.png)
 
 Se você tem personagens cadastrados e algum deles **não foi atualizado há mais de 30 dias**, o app exibe um aviso na tela inicial:
 

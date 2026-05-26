@@ -12,8 +12,6 @@ Se o clã exige voto no último BC, registre sua presença (SIM ou NÃO) **sempr
 
 ---
 
-![Lista de eventos BC e PvP com status e data](/img/eventos-lista.png)
-
 ## Como votar em um evento
 
 1. Abra o menu lateral e vá em **Eventos**
@@ -40,8 +38,6 @@ Você receberá uma **notificação push** quando um evento for criado ou quando
 
 ### Criar um evento
 
-![Formulário de criação de evento com campos Tipo, Data, Hora e Descrição](/img/eventos-criar-form.png)
-
 1. Vá em **Eventos**
 2. Toque em **+** (adicionar)
 3. Preencha:
@@ -53,8 +49,6 @@ Você receberá uma **notificação push** quando um evento for criado ou quando
 Uma notificação é enviada automaticamente para os membros configurados.
 
 ### Ver os votos
-
-![Tela de votos do evento com contagem SIM, NÃO, SEM RESPOSTA e lista de votantes](/img/eventos-votos-tela.png)
 
 1. Acesse o evento
 2. Toque em **Ver Votos**

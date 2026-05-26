@@ -12,15 +12,11 @@ O menu exibe apenas as opções que seu cargo permite usar.
 
 ---
 
-![Menu de notificações com opções Notificar Todos, BC, PvP, Recrutamento e Cadastro](/img/admin-notificacoes-menu.png)
-
 ## Tipos de notificação manual
 
 ### Notificar Todos (Admin)
 
 Envia uma notificação push para **todos os usuários ativos** do app.
-
-![Formulário de notificação em massa com campos Título e Mensagem](/img/admin-notificacoes-todos-form.png)
 
 **Como usar:**
 1. Toque em **Notificar Todos**
@@ -37,8 +33,6 @@ Use com moderação. Notificações em massa frequentes tendem a ser ignoradas o
 ### Notificação BC (Admin / Coordenador BC)
 
 Envia uma notificação segmentada para usuários com base no **voto em um evento de Bless Castle específico**.
-
-![Formulário de notificação BC com seletor de evento e grupo de destinatários](/img/admin-notificacoes-bc-form.png)
 
 **Como usar:**
 

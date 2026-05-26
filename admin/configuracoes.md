@@ -2,8 +2,6 @@
 
 As configurações globais afetam todo o sistema. Acesse em **Gestão → Configurações**.
 
-![Tela de configurações com toggles e campos de configuração do sistema](/img/admin-configuracoes-tela.png)
-
 ## Parâmetros disponíveis
 
 ### Criar conta (público)
