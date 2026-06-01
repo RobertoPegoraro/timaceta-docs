@@ -17,7 +17,8 @@ O link só aparece se o administrador tiver configurado a URL da política nas C
 
 ## O que a política cobre
 
-A política de privacidade do Timaceta detalha como os seus dados são coletados, usados e armazenados. Os principais pontos são:
+A política de privacidade do Timaceta detalha como os seus dados são coletados, usados e armazenados. Os principais
+pontos são:
 
 ### Dados coletados pelo app
 
@@ -31,9 +32,12 @@ A política de privacidade do Timaceta detalha como os seus dados são coletados
 
 Quando você usa o alistamento (manual ou automático):
 
-- **Alistamento automático:** as credenciais do líder/vice-líder são armazenadas **criptografadas** (AES-256) no banco de dados para uso pelo sistema automático
-- **Alistamento manual:** suas credenciais **não são armazenadas nos servidores**. Elas são enviadas diretamente ao Painel via HTTPS e descartadas após o uso
-- **"Lembrar-me":** se ativado, as credenciais ficam salvas **somente no seu dispositivo** (Keystore Android / Keychain iOS). O desenvolvedor não tem acesso a elas
+- **Alistamento automático:** as credenciais do líder/vice-líder são armazenadas **criptografadas** (AES-256) no banco
+  de dados para uso pelo sistema automático
+- **Alistamento manual:** suas credenciais **não são armazenadas nos servidores**. Elas são enviadas diretamente ao
+  Painel via HTTPS e descartadas após o uso
+- **"Lembrar-me":** se ativado, as credenciais ficam salvas **somente no seu dispositivo** (Keystore Android / Keychain
+  iOS). O desenvolvedor não tem acesso a elas
 
 ### Como os dados são usados
 
@@ -54,7 +58,8 @@ Quando você usa o alistamento (manual ou automático):
 
 ## Excluir seus dados
 
-Para remover seus dados do sistema, você pode [excluir sua conta](/perfil/) diretamente pelo app. Isso remove seu usuário e dados associados permanentemente.
+Para remover seus dados do sistema, você pode [excluir sua conta](/perfil/) diretamente pelo app. Isso remove seu
+usuário e dados associados permanentemente.
 
 ---
 

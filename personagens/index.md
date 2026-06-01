@@ -2,10 +2,13 @@
 
 ## Por que cadastrar personagens?
 
-O sistema de alistamento automático identifica jogadores pelos seus personagens cadastrados no app. **Se seu personagem não estiver cadastrado, o alistamento automático irá rejeitá-lo automaticamente**, mesmo que você passe em todas as outras regras.
+O sistema de alistamento automático identifica jogadores pelos seus personagens cadastrados no app. **Se seu personagem
+não estiver cadastrado, o alistamento automático irá rejeitá-lo automaticamente**, mesmo que você passe em todas as
+outras regras.
 
 ::: danger Mantenha o cadastro atualizado
-Personagens com cadastro desatualizado **há mais de 30 dias** são automaticamente rejeitados no alistamento. Abra o personagem e clique em Salvar pelo menos uma vez por mês.
+Personagens com cadastro desatualizado **há mais de 30 dias** são automaticamente rejeitados no alistamento. Abra o
+personagem e clique em Salvar pelo menos uma vez por mês.
 :::
 
 ---
@@ -35,7 +38,8 @@ Personagens com cadastro desatualizado **há mais de 30 dias** são automaticame
 4. Toque em **Salvar**
 
 ::: tip Dica rápida
-Se nada mudou mas já faz quase 30 dias, entre no personagem e toque em **Salvar** mesmo sem alterar nada. Isso atualiza a data e evita rejeição no alistamento.
+Se nada mudou mas já faz quase 30 dias, entre no personagem e toque em **Salvar** mesmo sem alterar nada. Isso atualiza
+a data e evita rejeição no alistamento.
 :::
 
 ---
@@ -47,7 +51,8 @@ Se nada mudou mas já faz quase 30 dias, entre no personagem e toque em **Salvar
 3. Toque em **Deletar** e confirme
 
 ::: warning
-Deletar um personagem remove o vínculo com sua conta. Se o personagem estiver compartilhado com outros usuários, os vínculos deles também são removidos.
+Deletar um personagem remove o vínculo com sua conta. Se o personagem estiver compartilhado com outros usuários, os
+vínculos deles também são removidos.
 :::
 
 ---
@@ -56,7 +61,9 @@ Deletar um personagem remove o vínculo com sua conta. Se o personagem estiver c
 
 Você pode cadastrar mais de um personagem. Todos ficam vinculados à sua conta de usuário.
 
-Isso é importante para o alistamento: se você tem um personagem principal (piloto) e um alt, **cadastre os dois** e certifique-se de que ambos estão atualizados. A verificação de voto no BC é feita pelo **usuário**, então votar com qualquer personagem vale para todos os seus personagens.
+Isso é importante para o alistamento: se você tem um personagem principal (piloto) e um alt, **cadastre os dois** e
+certifique-se de que ambos estão atualizados. A verificação de voto no BC é feita pelo **usuário**, então votar com
+qualquer personagem vale para todos os seus personagens.
 
 ---
 
@@ -72,4 +79,5 @@ Qualquer usuário pode buscar informações de um personagem pelo nick:
 
 ## Compartilhamento de personagem
 
-É possível vincular um personagem a mais de um usuário do app. Veja como funciona em [Compartilhamento de Personagem](/personagens/compartilhamento).
+É possível vincular um personagem a mais de um usuário do app. Veja como funciona
+em [Compartilhamento de Personagem](/personagens/compartilhamento).

@@ -16,13 +16,15 @@ Esta página explica cada campo do formulário de personagem e o que ele signifi
 **Obrigatório.** O nome do personagem exatamente como aparece no Painel.
 
 ::: warning Atenção ao nick
-O sistema busca o nick de forma exata. Se o nick no jogo for `KnightRobert`, não use `knightrobert` ou `Knight Robert`. **Maiúsculas e minúsculas importam.**
+O sistema busca o nick de forma exata. Se o nick no jogo for `KnightRobert`, não use `knightrobert` ou `Knight Robert`.
+**Maiúsculas e minúsculas importam.**
 :::
 
 Se o nick já estiver cadastrado por outro usuário, você verá a mensagem:
 > *"Nick já cadastrado por: [Nome]. Peça para compartilhar o personagem com você."*
 
-Nesse caso, você não deve criar um novo cadastro — peça ao dono original para [compartilhar o personagem](/personagens/compartilhamento) com você.
+Nesse caso, você não deve criar um novo cadastro — peça ao dono original
+para [compartilhar o personagem](/personagens/compartilhamento) com você.
 
 ---
 
@@ -48,13 +50,13 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 **Opcional.** Selecione as relíquias que seu personagem possui. Você pode selecionar mais de uma.
 
 | Relíquia | | Relíquia | |
-|---|---|---|---|
-| Fúria | | Shy | |
-| Babel | | Tulla | |
-| Valento | | Draxos | |
-| Kelvezu | | Greedy | |
-| Mokova | | Yagditha | |
-| Midranda | | | |
+|----------|-|----------|-|
+| Fúria    | | Shy      | |
+| Babel    | | Tulla    | |
+| Valento  | | Draxos   | |
+| Kelvezu  | | Greedy   | |
+| Mokova   | | Yagditha | |
+| Midranda | |          | |
 
 ---
 
@@ -69,7 +71,6 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 ### Possui armadura Verthex?
 
 **Obrigatório.** Selecione **Sim** ou **Não**.
-
 
 **Aging Armadura Verthex:** O nível de "aging" do item.
 
@@ -93,7 +94,8 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 
 **Obrigatório.** Selecione **Sim** ou **Não**.
 
-Indica se o personagem completou todas as missões (quests) disponíveis no jogo. Personagens com todas as quests feitas têm acesso a bônus e conteúdo adicional.
+Indica se o personagem completou todas as missões (quests) disponíveis no jogo. Personagens com todas as quests feitas
+têm acesso a bônus e conteúdo adicional.
 
 ---
 
@@ -107,20 +109,21 @@ Veja a página [Compartilhamento de Personagem](/personagens/compartilhamento) p
 
 ## Salvando
 
-Após preencher todos os campos obrigatórios, toque em **Salvar**. O sistema valida os dados e salva. Campos com erro são destacados em vermelho com a mensagem de correção.
+Após preencher todos os campos obrigatórios, toque em **Salvar**. O sistema valida os dados e salva. Campos com erro são
+destacados em vermelho com a mensagem de correção.
 
 ---
 
 ## Resumo de validações
 
-| Campo | Regra |
-|---|---|
-| Nick | Obrigatório, único no sistema |
-| Nível | Obrigatório, entre 165 e 185 |
-| Classe | Obrigatório, selecionar da lista |
-| Relíquias | Opcional, múltipla escolha |
-| Verthex Ataque | Sim/Não obrigatório; se Sim, aging 0-999 |
+| Campo            | Regra                                    |
+|------------------|------------------------------------------|
+| Nick             | Obrigatório, único no sistema            |
+| Nível            | Obrigatório, entre 165 e 185             |
+| Classe           | Obrigatório, selecionar da lista         |
+| Relíquias        | Opcional, múltipla escolha               |
+| Verthex Ataque   | Sim/Não obrigatório; se Sim, aging 0-999 |
 | Armadura Verthex | Sim/Não obrigatório; se Sim, aging 0-999 |
-| Luvas Greedy | Sim/Não obrigatório; se Sim, aging 0-999 |
-| Amuleto Yag | Sim/Não obrigatório |
-| Quests completas | Sim/Não obrigatório |
+| Luvas Greedy     | Sim/Não obrigatório; se Sim, aging 0-999 |
+| Amuleto Yag      | Sim/Não obrigatório                      |
+| Quests completas | Sim/Não obrigatório                      |

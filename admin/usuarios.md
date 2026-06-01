@@ -6,10 +6,10 @@ Admins podem ver todos os usuários, ativar/desativar contas e atribuir cargos.
 
 1. Vá em **Gestão → Usuários**
 2. A lista exibe todos os usuários cadastrados com:
-   - Nome e e-mail
-   - Status (ativo/inativo)
-   - Cargos atribuídos
-   - Último acesso
+    - Nome e e-mail
+    - Status (ativo/inativo)
+    - Cargos atribuídos
+    - Último acesso
 
 ---
 
@@ -30,7 +30,8 @@ Para desativar:
 3. Salve — o usuário perde acesso imediatamente no próximo login
 
 ::: info
-Usuários com conta inativa não conseguem fazer login e são bloqueados com uma mensagem pedindo para contatar a liderança.
+Usuários com conta inativa não conseguem fazer login e são bloqueados com uma mensagem pedindo para contatar a
+liderança.
 :::
 
 ---
@@ -39,11 +40,11 @@ Usuários com conta inativa não conseguem fazer login e são bloqueados com uma
 
 1. Toque no usuário
 2. Marque ou desmarque os cargos desejados:
-   - **Admin** — acesso total
-   - **Recrutador** — gerencia candidatos
-   - **Coordenador BC** — eventos de Bless Castle
-   - **Coordenador PvP** — eventos PvP
-   - **Gerenciador de Clã** — gerencia membros do clã
+    - **Admin** — acesso total
+    - **Recrutador** — gerencia candidatos
+    - **Coordenador BC** — eventos de Bless Castle
+    - **Coordenador PvP** — eventos PvP
+    - **Gerenciador de Clã** — gerencia membros do clã
 3. Salve
 
 ::: warning

@@ -1,106 +1,81 @@
 # Regras de Aceite e Rejeição
 
-Esta página detalha todas as regras verificadas pelo sistema antes de aceitar ou rejeitar um alistamento.
+Esta página detalha as regras verificadas pelo sistema antes de aceitar ou rejeitar um alistamento.
 
 ## Regras em ordem de verificação
 
-As regras são verificadas na seguinte ordem. Assim que uma falha é encontrada, o processo para:
-
 ### Regra 1 — Personagem cadastrado no app
 
-**O que verifica:** Se o nick do personagem existe no banco de dados do Timaceta.
-
-**Como cumprir:** [Cadastre seu personagem](/personagens/) no app com o nick **exatamente igual** ao do Painel (maiúsculas e minúsculas importam).
-
-**O que acontece se falhar:**
-- Removido da fila silenciosamente (sem notificação)
-- Sem mensagem de erro — o personagem simplesmente não entra
-
----
+O personagem precisa existir no APP Timaceta.
 
 ### Regra 2 — Usuário ativo no app
 
-**O que verifica:** Se existe um usuário do app com a conta ativa vinculado ao personagem cadastrado.
-
-**Como cumprir:** Ter uma conta ativa no Timaceta vinculada ao personagem.
-
-**O que acontece se falhar:**
-- Removido da fila silenciosamente (sem notificação)
-
----
+É necessário existir uma conta ativa vinculada ao personagem.
 
 ### Regra 3 — Nível mínimo do clã
 
-**O que verifica:** Se o nível do personagem é maior ou igual ao nível mínimo configurado para o clã.
-
-**Como cumprir:** Ter o nível exigido. O nível mínimo de cada clã é definido pelo Admin.
-
-**O que acontece se falhar:**
-- Rejeitado e removido da fila
-- Notificação enviada:
-  > *"[Nick] não possui o nível mínimo exigido pelo clã [NomeCla]"*
-
----
+O personagem deve atender ao nível mínimo configurado pelo clã.
 
 ### Regra 4 — Cadastro atualizado
 
-**O que verifica:** Se o cadastro do personagem no app foi atualizado nos **últimos 30 dias**.
+O cadastro do personagem deve ter sido atualizado nos últimos 30 dias.
 
-**Como cumprir:** Periodicamente, acesse o app → Personagens → selecione o personagem → toque em **Salvar** (mesmo sem alterar nada). Isso atualiza a data de verificação.
+### Regra 5 — Participação em eventos de BC (opcional)
 
-**O que acontece se falhar:**
-- Rejeitado e removido da fila
-- Notificação enviada:
-  > *"Cadastro desatualizado. Acesse o app, vá em Personagens e clique em Salvar."*
+Esta regra existe apenas quando o clã ativa a validação de participação em eventos.
 
-::: tip Dica
-Configure um lembrete mensal para atualizar seu personagem no app. Basta abrir o personagem e salvar — leva menos de 10 segundos.
-:::
+Dependendo da configuração do clã, pode ser necessário:
 
----
+- Ter participado do último BC;
+- Ter participado dos últimos 2 BCs;
+- Ter participado dos últimos 3 BCs;
+- Ou outra quantidade definida pelo Admin.
 
-### Regra 5 — Voto no último evento de BC (opcional)
+Caso os requisitos de participação não sejam atendidos:
 
-**O que verifica:** Se o clã tem a opção `Verificar voto em evento` ativada, o sistema verifica se você votou no **último evento de Bless Castle (BC) encerrado**.
-
-**Aplicação:** Esta regra só existe se o Admin do clã configurou `Verificar voto em evento = Sim`.
-
-**Como cumprir:** Vote no último evento de BC pelo app (seção Eventos → selecione o BC encerrado → registre seu voto).
-
-**O que acontece se falhar:**
-- Status **PENDENTE** (não é rejeitado — fica na fila)
-- Uma notificação push é enviada (máximo 1 vez a cada 6 horas caso alistamento fique pendente):
+- O alistamento permanece pendente;
+- O personagem não é removido da fila;
+- O sistema tentará novamente nos próximos ciclos.
 
 ---
 
 ## Tabela Resumo
 
-| Regra | Configurável | Resultado se falhar | Notificação |
-|---|---|---|---|
-| Personagem no app | Não | Removido silenciosamente | Nenhuma |
-| Usuário ativo | Não | Removido silenciosamente | Nenhuma |
-| Nível mínimo | Sim (por clã) | Rejeitado e removido | Sim |
-| Cadastro ≤ 30 dias | Não | Rejeitado e removido | Sim |
-| Votou no BC | Sim (por clã) | Pendente (na fila) | Sim (6h/vez) |
+| Regra               | Configurável | Resultado se falhar |
+|---------------------|--------------|---------------------|
+| Personagem no app   | Não          | Removido            |
+| Usuário ativo       | Não          | Removido            |
+| Nível mínimo        | Sim          | Rejeitado           |
+| Cadastro atualizado | Não          | Rejeitado           |
+| Participação em BC  | Sim          | Pendente            |
 
 ---
 
-## Situação de múltiplos personagens e piloto
+## Participação em BCs, personagem principal e personagens alternativos
 
-Se você tem **mais de um personagem**, a verificação de voto no BC é feita pelo **Nick do personagem**, não pelo usuário.
+Alguns clãs exigem participação em eventos de Bless Castle para liberar o alistamento automático.
 
-**Exemplo:** Se você tem o personagem A (principal) e o personagem B (secundário), e votou no BC com o principal, apenas esse personagem é considerado como tendo votado.
+Dependendo da configuração escolhida pelo Admin do clã, o sistema pode considerar:
+
+- Apenas o personagem utilizado no voto;
+- Apenas o personagem principal;
+- O personagem utilizado no voto e o personagem principal;
+- Todos os personagens vinculados à mesma conta;
+- Ou nenhuma associação adicional.
+
+Também é possível que o clã exija participação em mais de um BC recente.
+
+Por isso, dois jogadores que participaram do mesmo evento podem ter resultados diferentes, dependendo das regras
+configuradas pelo clã.
 
 ---
 
-## Por que meu personagem está sendo rejeitado se tudo parece certo?
+## Por que meu personagem está pendente ou sendo rejeitado?
 
-Checklist:
+Verifique:
 
-- [ ] O nick está **exatamente igual** ao do Painel? (maiúsculas, espaços, acentos)
-- [ ] Sua conta no Timaceta está **ativa**? (peça a um Admin para verificar)
-- [ ] Você **salvou** o personagem nos **últimos 30 dias**?
-- [ ] Seu nível atinge o **mínimo configurado** para o clã?
-- [ ] Se o clã exige: você **votou no último BC encerrado**?
-
-Se tudo estiver correto e o problema persistir, entre em contato com um Admin.
+- O nick está correto?
+- Sua conta está ativa?
+- O cadastro foi atualizado nos últimos 30 dias?
+- O nível atende ao mínimo exigido?
+- Você participou da quantidade de BCs exigida pelo clã?

@@ -2,16 +2,19 @@
 
 ## O que é o compartilhamento?
 
-O compartilhamento de personagem permite que um único cadastro de personagem seja **visível e associado a mais de um usuário** do app.
+O compartilhamento de personagem permite que um único cadastro de personagem seja **visível e associado a mais de um
+usuário** do app.
 
-Isso resolve situações onde mais de uma pessoa usa ou gerencia o mesmo personagem no jogo — por exemplo, em casos de **share** (quando dois jogadores se revezam no mesmo personagem).
+Isso resolve situações onde mais de uma pessoa usa ou gerencia o mesmo personagem no jogo — por exemplo, em casos de *
+*share** (quando dois jogadores se revezam no mesmo personagem).
 
 ---
 
 ## Quando usar o compartilhamento?
 
 **Caso 1 — Share entre jogadores:**
-Dois amigos se revezam no mesmo personagem (cada um joga em horários diferentes). Ambos precisam que o personagem apareça vinculado às suas contas para o sistema de alistamento funcionar corretamente.
+Dois amigos se revezam no mesmo personagem (cada um joga em horários diferentes). Ambos precisam que o personagem
+apareça vinculado às suas contas para o sistema de alistamento funcionar corretamente.
 
 **Caso 2 — Nick já cadastrado por outra pessoa:**
 Se você tentar cadastrar um nick que já existe no sistema, o app exibirá:
@@ -39,8 +42,10 @@ Nesse caso, o dono original do cadastro deve compartilhar o personagem com você
 ## O que acontece depois do compartilhamento?
 
 - O personagem passa a aparecer na lista de personagens de **todos** os usuários vinculados
-- Para o sistema de alistamento, o personagem é considerado válido para **qualquer** um dos usuários vinculados que estiver ativo
-- A data de atualização do cadastro é compartilhada — qualquer usuário vinculado que salvar atualiza o prazo de 30 dias para todos
+- Para o sistema de alistamento, o personagem é considerado válido para **qualquer** um dos usuários vinculados que
+  estiver ativo
+- A data de atualização do cadastro é compartilhada — qualquer usuário vinculado que salvar atualiza o prazo de 30 dias
+  para todos
 
 ---
 
@@ -58,11 +63,11 @@ O usuário removido perde o vínculo com o personagem e ele deixa de aparecer na
 
 ## Diferença entre compartilhamento e alt
 
-| Situação | O que fazer |
-|---|---|
-| Você tem dois personagens diferentes (piloto e alt) | Cadastre ambos separadamente com o botão **+** |
-| Você compartilha **o mesmo personagem** com outro jogador (share) | Use o campo **"Compartilhado com"** |
-| Você quer se cadastrar em um nick que outra pessoa já registrou | Peça ao dono para compartilhar com você |
+| Situação                                                          | O que fazer                                    |
+|-------------------------------------------------------------------|------------------------------------------------|
+| Você tem dois personagens diferentes (piloto e alt)               | Cadastre ambos separadamente com o botão **+** |
+| Você compartilha **o mesmo personagem** com outro jogador (share) | Use o campo **"Compartilhado com"**            |
+| Você quer se cadastrar em um nick que outra pessoa já registrou   | Peça ao dono para compartilhar com você        |
 
 ---
 
@@ -72,10 +77,12 @@ O usuário removido perde o vínculo com o personagem e ele deixa de aparecer na
 Sim. Qualquer usuário vinculado ao personagem pode editar todos os campos, incluindo o campo "Compartilhado com".
 
 **O compartilhamento afeta o alistamento?**
-Sim, positivamente. Se o personagem está compartilhado com você e sua conta está ativa, o alistamento automático o reconhece normalmente.
+Sim, positivamente. Se o personagem está compartilhado com você e sua conta está ativa, o alistamento automático o
+reconhece normalmente.
 
 **Quantos usuários podem compartilhar um personagem?**
 Não há limite definido pelo sistema.
 
 **E se o dono original sair do clã e excluir a conta?**
-Os usuários que tinham o personagem compartilhado perdem o acesso porém as pessoas que tem compartilhamento (share) continuam com o personagem.
+Os usuários que tinham o personagem compartilhado perdem o acesso porém as pessoas que tem compartilhamento (share)
+continuam com o personagem.

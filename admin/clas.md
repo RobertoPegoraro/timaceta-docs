@@ -11,21 +11,22 @@ Esta página explica como cadastrar, editar e gerenciar os clãs no sistema.
 
 ### Campos do clã
 
-| Campo                  | Obrigatório | Descrição                                                   |
-|------------------------|---|-------------------------------------------------------------|
-| Nome do clã            | Sim | Nome exibido no app (precisa ser exatamento igual no painel) |
-| ID do clã (Painel)     | Sim | Identificador numérico do clã no site da Painel              |
-| Servidor               | Sim | Awell, Migal, Midranda, Cronus ou Idhas                     |
-| E-mail do Líder        | Sim | Conta Painel do líder                                        |
-| Senha do Líder         | Sim | Usada para login automático                                 |
-| E-mail do Vice-Líder   | Sim | Conta Painel do vice-líder                                   |
-| Senha do Vice-Líder    | Sim | Usada como fallback se líder falhar                         |
-| Nível mínimo           | Sim | Nível mínimo para ser aceito (0 = sem restrição)            |
-| Alistamento Automático | Sim | Ativa/desativa o job automático                             |
-| Verificar voto em BC   | Sim | Exige que o candidato tenha votado no último BC             |
+| Campo                  | Obrigatório | Descrição                                                    |
+|------------------------|-------------|--------------------------------------------------------------|
+| Nome do clã            | Sim         | Nome exibido no app (precisa ser exatamento igual no painel) |
+| ID do clã (Painel)     | Sim         | Identificador numérico do clã no site da Painel              |
+| Servidor               | Sim         | Awell, Migal, Midranda, Cronus ou Idhas                      |
+| E-mail do Líder        | Sim         | Conta Painel do líder                                        |
+| Senha do Líder         | Sim         | Usada para login automático                                  |
+| E-mail do Vice-Líder   | Sim         | Conta Painel do vice-líder                                   |
+| Senha do Vice-Líder    | Sim         | Usada como fallback se líder falhar                          |
+| Nível mínimo           | Sim         | Nível mínimo para ser aceito (0 = sem restrição)             |
+| Alistamento Automático | Sim         | Ativa/desativa o job automático                              |
+| Verificar voto em BC   | Sim         | Exige que o candidato tenha votado no último BC              |
 
 ::: warning Segurança das senhas
-As senhas são armazenadas com criptografia **AES-256** no banco de dados. Elas nunca são exibidas em texto puro após salvas.
+As senhas são armazenadas com criptografia **AES-256** no banco de dados. Elas nunca são exibidas em texto puro após
+salvas.
 :::
 
 ---
@@ -55,7 +56,8 @@ Para desativar:
 3. Salve
 
 ::: info
-O alistamento também pode ser **desativado automaticamente** pelo sistema se o login no Painel falhar 5 vezes consecutivas. Neste caso você receberá uma notificação push.
+O alistamento também pode ser **desativado automaticamente** pelo sistema se o login no Painel falhar 5 vezes
+consecutivas. Neste caso você receberá uma notificação push.
 :::
 
 ---
@@ -66,14 +68,16 @@ O alistamento também pode ser **desativado automaticamente** pelo sistema se o 
 2. Marque **Verificar voto em evento: Sim/Não**
 3. Salve
 
-Quando ativado, candidatos que não votaram no último BC ficam com status **Pendente** na fila de alistamento, até que votem.
+Quando ativado, candidatos que não votaram no último BC ficam com status **Pendente** na fila de alistamento, até que
+votem.
 
 ---
 
 ## Deletar um clã
 
 ::: danger Ação irreversível
-Deletar um clã remove permanentemente os dados do sistema. As sessões de login e caches de alistamento **não são removidos automaticamente**.
+Deletar um clã remove permanentemente os dados do sistema. As sessões de login e caches de alistamento **não são
+removidos automaticamente**.
 :::
 
 1. Acesse o clã

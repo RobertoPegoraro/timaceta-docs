@@ -1,6 +1,7 @@
 # Horário dos Bosses
 
-A seção de Horário dos Bosses exibe em tempo real quais bosses estão disponíveis agora em cada subservidor, e os horários completos de spawn.
+A seção de Horário dos Bosses exibe em tempo real quais bosses estão disponíveis agora em cada subservidor, e os
+horários completos de spawn.
 
 ::: info Funcionalidade opcional
 Esta seção só aparece no menu se um Admin tiver ativado em **Configurações → Horário de Boss Ativo**.
@@ -32,6 +33,7 @@ Após selecionar, a lista de subservidores é carregada automaticamente.
 A tela exibe um **grid de bosses** que estão disponíveis no horário atual (baseado no fuso horário GMT-3 / Brasília).
 
 Para cada boss ativo você vê:
+
 - Imagem do boss
 - Nome do boss
 - Local de spawn
@@ -46,14 +48,17 @@ Toque no menu superior direito para ver o detalhamento dos Bosses por horário e
 
 ## Atualizar
 
-Use o botão de **refresh** (ícone de atualização) para recarregar os dados manualmente caso a lista esteja desatualizada.
+Use o botão de **refresh** (ícone de atualização) para recarregar os dados manualmente caso a lista esteja
+desatualizada.
 
 ---
 
 ## Fonte dos dados
 
-Os dados são carregados em tempo real de uma fonte externa configurada pelo Admin. Se a fonte estiver em manutenção ou indisponível, uma mensagem de erro será exibida — aguarde alguns minutos e tente novamente com o botão de refresh.
+Os dados são carregados em tempo real de uma fonte externa configurada pelo Admin. Se a fonte estiver em manutenção ou
+indisponível, uma mensagem de erro será exibida — aguarde alguns minutos e tente novamente com o botão de refresh.
 
 ::: tip
-Os horários são calculados automaticamente com base no horário atual do seu dispositivo, ajustado para GMT-3. Verifique se o horário do seu celular está correto para ter a informação precisa.
+Os horários são calculados automaticamente com base no horário atual do seu dispositivo, ajustado para GMT-3. Verifique
+se o horário do seu celular está correto para ter a informação precisa.
 :::

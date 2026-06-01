@@ -25,16 +25,17 @@ Qualquer membro ativo pode ver os grupos PvP formados. Para cada grupo são exib
 1. Vá em **PvP**
 2. Toque em **+** (adicionar)
 3. Preencha os **5 slots de nick**:
-   - Toque em cada campo e comece a digitar
-   - O sistema busca membros ativos em tempo real (até 30 resultados)
-   - Selecione o nick desejado
+    - Toque em cada campo e comece a digitar
+    - O sistema busca membros ativos em tempo real (até 30 resultados)
+    - Selecione o nick desejado
 4. Toque em **Salvar Grupo**
 
 ::: warning Regras de composição
+
 - Todos os 5 slots são **obrigatórios**
 - O mesmo nick **não pode aparecer duas vezes** no mesmo grupo
 - O mesmo nick **não pode estar em dois grupos diferentes** do mesmo evento
-:::
+  :::
 
 ---
 
@@ -45,7 +46,8 @@ Qualquer membro ativo pode ver os grupos PvP formados. Para cada grupo são exib
 3. Toque em **Salvar**
 
 ::: info Controle de conflitos
-Se outro Coordenador editar o mesmo grupo ao mesmo tempo, o sistema detecta o conflito e exibe um alerta antes de salvar, evitando sobrescrever dados.
+Se outro Coordenador editar o mesmo grupo ao mesmo tempo, o sistema detecta o conflito e exibe um alerta antes de
+salvar, evitando sobrescrever dados.
 :::
 
 ---

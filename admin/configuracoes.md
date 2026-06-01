@@ -43,12 +43,14 @@ Ativa ou desativa a seção de horário de boss no menu.
 
 ## Quem alterou por último
 
-As configurações registram automaticamente **quem** fez a última alteração e **quando**. Isso fica visível na tela de configurações para auditoria.
+As configurações registram automaticamente **quem** fez a última alteração e **quando**. Isso fica visível na tela de
+configurações para auditoria.
 
 ---
 
 ## Atenção ao alterar configurações
 
 ::: warning
-Alterações nas configurações têm efeito **imediato** em todo o sistema para todos os usuários. Avise a equipe antes de desativar funcionalidades em uso.
+Alterações nas configurações têm efeito **imediato** em todo o sistema para todos os usuários. Avise a equipe antes de
+desativar funcionalidades em uso.
 :::

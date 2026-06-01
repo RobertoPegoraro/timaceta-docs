@@ -9,9 +9,9 @@ Qualquer membro ativo pode participar da votação de candidatos. Seu voto é im
 3. Toque no candidato que deseja avaliar
 4. Leia as informações do formulário preenchido pelo candidato
 5. Role para baixo e toque no seu voto:
-   - **SIM** — Você recomenda a entrada do candidato
-   - **NÃO** — Você não recomenda
-   - **SEM POSIÇÃO** — Você se abstém de opinar
+    - **SIM** — Você recomenda a entrada do candidato
+    - **NÃO** — Você não recomenda
+    - **SEM POSIÇÃO** — Você se abstém de opinar
 6. Opcionalmente, adicione um **comentário** explicando sua posição
 7. Toque em **Confirmar**
 
@@ -34,10 +34,12 @@ O formulário de candidatura contém:
 
 ## Quando posso votar?
 
-Apenas quando a votação do candidato está **ativa**. Se a votação estiver encerrada, você poderá ver o resultado mas não alterar.
+Apenas quando a votação do candidato está **ativa**. Se a votação estiver encerrada, você poderá ver o resultado mas não
+alterar.
 
 ## Notificações
 
 Você receberá uma notificação push quando:
+
 - Um novo recrutamento for criado (enviada para Recrutadores)
 - A votação de um candidato for aberta (enviada para todos)

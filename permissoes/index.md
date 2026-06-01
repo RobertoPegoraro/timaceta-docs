@@ -9,6 +9,7 @@ O sistema usa um modelo de cargos por permissão. Cada usuário pode ter zero ou
 Todo usuário com conta **ativa** tem acesso básico ao sistema.
 
 **Pode fazer:**
+
 - Fazer login no app
 - Ver avisos, dicas e regras
 - Completar perfil e cadastrar personagens
@@ -23,6 +24,7 @@ Todo usuário com conta **ativa** tem acesso básico ao sistema.
 Responsável pelo processo de candidatura de novos membros.
 
 **Pode fazer (além do membro comum):**
+
 - Criar e editar recrutamentos
 - Ativar e encerrar votações
 - Aprovar ou rejeitar candidatos
@@ -36,6 +38,7 @@ Responsável pelo processo de candidatura de novos membros.
 Responsável pelos eventos de Bless Castle.
 
 **Pode fazer (além do membro comum):**
+
 - Criar e editar eventos de BC
 - Ver resultados de votação de BC
 - Encerrar eventos de BC
@@ -47,6 +50,7 @@ Responsável pelos eventos de Bless Castle.
 Responsável pelos eventos PvP.
 
 **Pode fazer (além do membro comum):**
+
 - Criar e editar eventos de PvP
 - Ver resultados de votação de PvP
 - Encerrar eventos de PvP
@@ -59,6 +63,7 @@ Responsável pelos eventos PvP.
 Gerencia a lista de membros diretamente no Painel, via app.
 
 **Pode fazer (além do membro comum):**
+
 - Ver lista de membros do clã (dados do Painel)
 - Aceitar alistados manualmente
 - Rejeitar alistados
@@ -71,6 +76,7 @@ Gerencia a lista de membros diretamente no Painel, via app.
 Acesso total ao sistema.
 
 **Pode fazer (tudo acima, mais):**
+
 - Criar, editar e deletar clãs
 - Ativar/desativar alistamento automático e manual por clã
 - Gerenciar usuários (ativar/desativar, alterar cargos)
@@ -86,24 +92,24 @@ Acesso total ao sistema.
 ## Tabela resumo de permissões
 
 | Funcionalidade              | Membro | Recrutador | Coord. BC | Coord. PvP | Ger. Clã | Admin |
-|-----------------------------|:---:|:---:|:---:|:---:|:---:|:---:|
-| Login e perfil              | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Ver avisos/dicas/regras     | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Cadastrar personagens       | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Votar em recrutamento       | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Votar em eventos            | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Alistamento manual          | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Gerenciar recrutamento      | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
-| Criar evento BC             | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ |
-| Criar evento PvP            | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Gerenciar grupos PvP        | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ |
-| Ver membros do clã (Painel) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Aceitar/rejeitar alistados  | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| Gerenciar clãs              | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Gerenciar usuários          | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Configurações do sistema    | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Enviar notificações         | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Editar avisos/dicas/regras  | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+|-----------------------------|:------:|:----------:|:---------:|:----------:|:--------:|:-----:|
+| Login e perfil              |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
+| Ver avisos/dicas/regras     |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
+| Cadastrar personagens       |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
+| Votar em recrutamento       |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
+| Votar em eventos            |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
+| Alistamento manual          |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
+| Gerenciar recrutamento      |   ❌    |     ✅      |     ❌     |     ❌      |    ❌     |   ✅   |
+| Criar evento BC             |   ❌    |     ❌      |     ✅     |     ❌      |    ❌     |   ✅   |
+| Criar evento PvP            |   ❌    |     ❌      |     ❌     |     ✅      |    ❌     |   ✅   |
+| Gerenciar grupos PvP        |   ❌    |     ❌      |     ❌     |     ✅      |    ❌     |   ✅   |
+| Ver membros do clã (Painel) |   ❌    |     ❌      |     ❌     |     ❌      |    ✅     |   ✅   |
+| Aceitar/rejeitar alistados  |   ❌    |     ❌      |     ❌     |     ❌      |    ✅     |   ✅   |
+| Gerenciar clãs              |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
+| Gerenciar usuários          |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
+| Configurações do sistema    |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
+| Enviar notificações         |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
+| Editar avisos/dicas/regras  |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
 
 ---
 

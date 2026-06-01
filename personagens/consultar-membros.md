@@ -1,6 +1,7 @@
 # Consultar Membros
 
-A funcionalidade **Consultar Membros** permite verificar rapidamente se um nick de personagem pertence a um membro ativo do clã.
+A funcionalidade **Consultar Membros** permite verificar rapidamente se um nick de personagem pertence a um membro ativo
+do clã.
 
 ## Como acessar
 

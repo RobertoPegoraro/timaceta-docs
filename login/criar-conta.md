@@ -1,16 +1,17 @@
 # Criar Conta
 
 ::: warning Funcionalidade controlada por Admin
-A criação de novas contas pode estar **desativada** pelo administrador. Se a opção não aparecer na tela de login, entre em contato com um Admin para solicitar acesso.
+A criação de novas contas pode estar **desativada** pelo administrador. Se a opção não aparecer na tela de login, entre
+em contato com um Admin para solicitar acesso.
 :::
 
 ## Passo a Passo
 
 1. Na tela de login, toque em **"Criar Conta"**
 2. Preencha:
-   - **E-mail** — será seu login
-   - **Senha** — mínimo de 6 caracteres
-   - **Confirmar senha** — deve ser igual à senha
+    - **E-mail** — será seu login
+    - **Senha** — mínimo de 6 caracteres
+    - **Confirmar senha** — deve ser igual à senha
 3. Toque em **Criar**
 4. Uma mensagem confirmará que a conta foi criada
 

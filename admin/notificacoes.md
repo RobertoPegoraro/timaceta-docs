@@ -19,13 +19,15 @@ O menu exibe apenas as opções que seu cargo permite usar.
 Envia uma notificação push para **todos os usuários ativos** do app.
 
 **Como usar:**
+
 1. Toque em **Notificar Todos**
 2. Preencha o **Título**
 3. Preencha a **Mensagem**
 4. Toque em **Enviar Notificação**
 
 ::: warning
-Use com moderação. Notificações em massa frequentes tendem a ser ignoradas ou causam desativação das notificações pelo usuário.
+Use com moderação. Notificações em massa frequentes tendem a ser ignoradas ou causam desativação das notificações pelo
+usuário.
 :::
 
 ---
@@ -39,19 +41,19 @@ Envia uma notificação segmentada para usuários com base no **voto em um event
 1. Toque em **Notificações BC**
 2. Selecione o **evento BC** na lista (últimos eventos com votos registrados)
 3. Selecione o **grupo de destinatários**:
-   - **SIM** — quem votou que vai participar
-   - **NÃO** — quem votou que não vai participar
-   - **Não Votou** — quem não registrou presença
+    - **SIM** — quem votou que vai participar
+    - **NÃO** — quem votou que não vai participar
+    - **Não Votou** — quem não registrou presença
 4. O **Título** e a **Mensagem** são preenchidos automaticamente com um template. Edite se quiser personalizar
 5. Toque em **Enviar Notificação**
 
 **Templates automáticos por opção:**
 
-| Opção | Template da mensagem |
-|---|---|
-| SIM | Lembrete de que precisa reportar o personagem e marcar a tag |
-| NÃO | Informativo sobre futuras oportunidades |
-| Não Votou | Convite para votar no evento |
+| Opção     | Template da mensagem                                         |
+|-----------|--------------------------------------------------------------|
+| SIM       | Lembrete de que precisa reportar o personagem e marcar a tag |
+| NÃO       | Informativo sobre futuras oportunidades                      |
+| Não Votou | Convite para votar no evento                                 |
 
 ::: info
 Se não houver nenhum evento BC com votos disponível, uma mensagem de aviso é exibida.
@@ -68,16 +70,16 @@ Envia uma notificação segmentada para usuários com base em **participação e
 1. Toque em **Notificações PvP**
 2. Selecione o **evento ou grupo PvP**
 3. Selecione o **grupo de destinatários**:
-   - **Adicionou nick** — quem confirmou participação
-   - **NÃO adicionou** — quem não confirmou
+    - **Adicionou nick** — quem confirmou participação
+    - **NÃO adicionou** — quem não confirmou
 4. Edite o **Título** e a **Mensagem** se necessário
 5. Toque em **Enviar Notificação**
 
 **Templates automáticos:**
 
-| Opção | Template da mensagem |
-|---|---|
-| Adicionou | Lembrete para solicitar a tag no servidor |
+| Opção         | Template da mensagem                            |
+|---------------|-------------------------------------------------|
+| Adicionou     | Lembrete para solicitar a tag no servidor       |
 | Não adicionou | Lembrete das regras e prazo para adicionar nick |
 
 ---
@@ -91,9 +93,9 @@ Envia uma notificação segmentada para usuários com base no **voto em um recru
 1. Toque em **Notificações Recrutamento**
 2. Selecione o **recrutamento ativo** na lista
 3. Selecione o **grupo de destinatários**:
-   - **SIM** — quem votou a favor
-   - **NÃO** — quem votou contra
-   - **Não Votou** — quem ainda não votou
+    - **SIM** — quem votou a favor
+    - **NÃO** — quem votou contra
+    - **Não Votou** — quem ainda não votou
 4. Edite o **Título** e a **Mensagem** se necessário
 5. Toque em **Enviar Notificação**
 
@@ -105,7 +107,8 @@ Se não houver recrutamentos ativos, uma mensagem de aviso é exibida.
 
 ### Notificação Cadastro (Admin)
 
-Envia uma notificação para usuários com **perfil incompleto** — aqueles que ainda não preencheram nome, telefone ou outros dados obrigatórios.
+Envia uma notificação para usuários com **perfil incompleto** — aqueles que ainda não preencheram nome, telefone ou
+outros dados obrigatórios.
 
 **Como usar:**
 
