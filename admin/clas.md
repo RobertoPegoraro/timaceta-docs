@@ -68,8 +68,54 @@ consecutivas. Neste caso você receberá uma notificação push.
 2. Marque **Verificar voto em evento: Sim/Não**
 3. Salve
 
-Quando ativado, candidatos que não votaram no último BC ficam com status **Pendente** na fila de alistamento, até que
-votem.
+Quando ativado, candidatos que não votaram no último BC ficam com status **Pendente** na fila de alistamento.
+
+### Configuração de voto em evento
+
+Ao ativar a verificação de voto, é possível configurar quantos eventos serão considerados e quais personagens ficam
+autorizados conforme o tipo de voto registrado no BC mais recente.
+
+#### Voto com personagem
+
+Define quais personagens do dono são autorizados quando o voto foi registrado com um personagem normal (não piloto).
+
+| Campo       | Descrição                                                                   |
+|-------------|-----------------------------------------------------------------------------|
+| Votou Sim   | Quais personagens ficam autorizados quando o dono votou **Sim**             |
+| Votou Não   | Quais personagens ficam autorizados quando o dono votou **Não**             |
+
+Opções disponíveis:
+
+| Opção                                   | Descrição                                                                 |
+|-----------------------------------------|---------------------------------------------------------------------------|
+| Apenas o personagem que votou           | Somente o personagem usado no voto fica autorizado                        |
+| Todos os personagens do usuário         | Todos os personagens do dono ficam autorizados                            |
+| Personagem principal                    | Apenas o personagem marcado como principal fica autorizado                |
+| Personagem que votou + principal        | O personagem do voto e o personagem principal ficam autorizados           |
+| Nenhum personagem                       | Este tipo de voto não autoriza entrada de nenhum personagem               |
+
+#### Voto como piloto
+
+Define quais personagens do dono são autorizados quando o voto foi registrado como **Piloto** no BC.
+
+| Campo       | Descrição                                                                   |
+|-------------|-----------------------------------------------------------------------------|
+| Votou Sim   | Quais personagens ficam autorizados quando o piloto votou **Sim**           |
+| Votou Não   | Quais personagens ficam autorizados quando o piloto votou **Não**           |
+
+Opções disponíveis:
+
+| Opção                  | Descrição                                                                    |
+|------------------------|------------------------------------------------------------------------------|
+| Todos os personagens   | Todos os personagens do dono ficam autorizados                               |
+| Personagem principal   | Apenas o personagem marcado como principal fica autorizado                   |
+| Nenhum personagem      | Este tipo de voto de piloto não autoriza entrada de nenhum personagem        |
+
+::: tip
+As configurações de **Voto com personagem** e **Voto como piloto** são independentes, permitindo regras distintas
+para cada situação — por exemplo, exigir o personagem principal quando o piloto vota Não, mas liberar todos os
+personagens quando o piloto vota Sim.
+:::
 
 ---
 
