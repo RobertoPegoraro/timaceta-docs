@@ -13,16 +13,15 @@ Esta página explica como cadastrar, editar e gerenciar os clãs no sistema.
 
 | Campo                  | Obrigatório | Descrição                                                    |
 |------------------------|-------------|--------------------------------------------------------------|
-| Nome do clã            | Sim         | Nome exibido no app (precisa ser exatamento igual no painel) |
-| ID do clã (Painel)     | Sim         | Identificador numérico do clã no site da Painel              |
+| Nome do clã            | Sim         | Nome exibido no app (precisa ser exatamente igual no painel) |
+| ID do clã (Painel)     | Sim         | Identificador numérico do clã no site do Painel              |
 | Servidor               | Sim         | Awell, Migal, Midranda, Cronus ou Idhas                      |
 | E-mail do Líder        | Sim         | Conta Painel do líder                                        |
 | Senha do Líder         | Sim         | Usada para login automático                                  |
 | E-mail do Vice-Líder   | Sim         | Conta Painel do vice-líder                                   |
-| Senha do Vice-Líder    | Sim         | Usada como fallback se líder falhar                          |
-| Nível mínimo           | Sim         | Nível mínimo para ser aceito (0 = sem restrição)             |
-| Alistamento Automático | Sim         | Ativa/desativa o job automático                              |
-| Verificar voto em BC   | Sim         | Exige que o candidato tenha votado no último BC              |
+| Senha do Vice-Líder    | Sim         | Usada como fallback se o líder falhar                        |
+| Nível mínimo           | Não         | Nível mínimo para ser aceito (0 = sem restrição)             |
+| Alistamento Automático | Não         | Ativa/desativa o job automático                              |
 
 ::: warning Segurança das senhas
 As senhas são armazenadas com criptografia **AES-256** no banco de dados. Elas nunca são exibidas em texto puro após
@@ -62,60 +61,131 @@ consecutivas. Neste caso você receberá uma notificação push.
 
 ---
 
-## Ativar ou desativar a exigência de voto no BC
+## Exigir voto em eventos de BC
+
+Quando ativado, candidatos que não atenderam aos requisitos de participação no BC ficam com status **Pendente** na fila
+de alistamento.
 
 1. Edite o clã
-2. Marque **Verificar voto em evento: Sim/Não**
-3. Salve
+2. Ative **Exigir voto em eventos BC**
+3. Toque em **Configuração de voto em evento** para abrir as configurações detalhadas
+4. Ajuste os parâmetros e toque em **Salvar** dentro do modal
 
-Quando ativado, candidatos que não votaram no último BC ficam com status **Pendente** na fila de alistamento.
+::: info
+Ao editar um clã existente, salvar a configuração no modal já persiste imediatamente no banco de dados, sem precisar
+salvar o clã novamente.
+:::
 
-### Configuração de voto em evento
+### Configuração de voto em evento (modal)
 
-Ao ativar a verificação de voto, é possível configurar quantos eventos serão considerados e quais personagens ficam
-autorizados conforme o tipo de voto registrado no BC mais recente.
+| Campo                    | Descrição                                                              |
+|--------------------------|------------------------------------------------------------------------|
+| Últimos eventos          | Quantos BCs recentes serão considerados (ex: 5 = últimos 5 BCs)       |
+| Contar apenas concluídos | Se ativo, eventos ainda em andamento não são contabilizados            |
 
 #### Voto com personagem
 
 Define quais personagens do dono são autorizados quando o voto foi registrado com um personagem normal (não piloto).
 
-| Campo       | Descrição                                                                   |
-|-------------|-----------------------------------------------------------------------------|
-| Votou Sim   | Quais personagens ficam autorizados quando o dono votou **Sim**             |
-| Votou Não   | Quais personagens ficam autorizados quando o dono votou **Não**             |
+| Campo     | Descrição                                                       |
+|-----------|-----------------------------------------------------------------|
+| Votou Sim | Quais personagens ficam autorizados quando o dono votou **Sim** |
+| Votou Não | Quais personagens ficam autorizados quando o dono votou **Não** |
 
 Opções disponíveis:
 
-| Opção                                   | Descrição                                                                 |
-|-----------------------------------------|---------------------------------------------------------------------------|
-| Apenas o personagem que votou           | Somente o personagem usado no voto fica autorizado                        |
-| Todos os personagens do usuário         | Todos os personagens do dono ficam autorizados                            |
-| Personagem principal                    | Apenas o personagem marcado como principal fica autorizado                |
-| Personagem que votou + principal        | O personagem do voto e o personagem principal ficam autorizados           |
-| Nenhum personagem                       | Este tipo de voto não autoriza entrada de nenhum personagem               |
+| Opção                            | Descrição                                                       |
+|----------------------------------|-----------------------------------------------------------------|
+| Apenas o personagem que votou    | Somente o personagem usado no voto fica autorizado              |
+| Todos os personagens do usuário  | Todos os personagens do dono ficam autorizados                  |
+| Personagem principal             | Apenas o personagem marcado como principal fica autorizado      |
+| Personagem que votou + principal | O personagem do voto e o personagem principal ficam autorizados |
+| Nenhum personagem                | Este tipo de voto não autoriza entrada de nenhum personagem     |
 
 #### Voto como piloto
 
 Define quais personagens do dono são autorizados quando o voto foi registrado como **Piloto** no BC.
 
-| Campo       | Descrição                                                                   |
-|-------------|-----------------------------------------------------------------------------|
-| Votou Sim   | Quais personagens ficam autorizados quando o piloto votou **Sim**           |
-| Votou Não   | Quais personagens ficam autorizados quando o piloto votou **Não**           |
+| Campo     | Descrição                                                              |
+|-----------|------------------------------------------------------------------------|
+| Votou Sim | Quais personagens ficam autorizados quando o piloto votou **Sim**      |
+| Votou Não | Quais personagens ficam autorizados quando o piloto votou **Não**      |
 
 Opções disponíveis:
 
-| Opção                  | Descrição                                                                    |
-|------------------------|------------------------------------------------------------------------------|
-| Todos os personagens   | Todos os personagens do dono ficam autorizados                               |
-| Personagem principal   | Apenas o personagem marcado como principal fica autorizado                   |
-| Nenhum personagem      | Este tipo de voto de piloto não autoriza entrada de nenhum personagem        |
+| Opção                  | Descrição                                                              |
+|------------------------|------------------------------------------------------------------------|
+| Todos os personagens   | Todos os personagens do dono ficam autorizados                         |
+| Personagem principal   | Apenas o personagem marcado como principal fica autorizado             |
+| Nenhum personagem      | Este tipo de voto de piloto não autoriza entrada de nenhum personagem  |
 
 ::: tip
 As configurações de **Voto com personagem** e **Voto como piloto** são independentes, permitindo regras distintas
 para cada situação — por exemplo, exigir o personagem principal quando o piloto vota Não, mas liberar todos os
 personagens quando o piloto vota Sim.
 :::
+
+---
+
+## Exigir participação em PvP
+
+Quando ativado, o sistema verifica se o personagem estava presente no local do evento de PvP durante a janela
+configurada, com base em **snapshots** de localização capturados periodicamente.
+
+1. Edite o clã
+2. Ative **Exigir participação em PvP**
+3. Toque em **Configuração de participação em PvP** para abrir as configurações detalhadas
+4. Ajuste os parâmetros e toque em **Salvar** dentro do modal
+
+::: info
+Ao editar um clã existente, salvar a configuração no modal já persiste imediatamente no banco de dados, sem precisar
+salvar o clã novamente.
+:::
+
+### Configuração de participação em PvP (modal)
+
+#### Campos globais
+
+| Campo                      | Descrição                                                                                      |
+|----------------------------|------------------------------------------------------------------------------------------------|
+| Nº de snapshots a avaliar  | Quantas snapshots recentes serão buscadas (ex: 10 = últimas 10 snapshots capturadas)           |
+| Presenças mínimas exigidas | Quantas dessas snapshots precisam registrar o personagem no local correto (ex: 3 de 10)        |
+
+#### Regras de localização
+
+Cada regra define um critério de presença válida. É possível adicionar **múltiplas regras** — uma snapshot é
+considerada válida se o personagem atender a qualquer uma das regras configuradas.
+
+Para adicionar uma regra, toque em **Adicionar regra**. Para remover, toque no ícone de lixeira ao lado da regra.
+
+| Campo          | Descrição                                                              |
+|----------------|------------------------------------------------------------------------|
+| Subservidor    | Subservidor onde o PvP ocorreu (Alfa, Beta, Gama, Delta, Ômega, Zeta) |
+| Mapa           | Mapa do evento (Coração de Fogo, Santuário do Abismo, etc.)            |
+| Horário início | Início da janela de verificação (formato 24h, ex: 22:00)               |
+| Horário fim    | Fim da janela de verificação (formato 24h, ex: 23:00)                  |
+
+::: tip Exemplo com múltiplas regras
+Um clã pode configurar duas regras para cobrir diferentes eventos no mesmo ciclo:
+
+- **Regra 1:** Ômega · Coração de Fogo · 23:00 → 01:00
+- **Regra 2:** Alfa · Arma Antiga · 22:00 → 23:00
+
+Com `Nº de snapshots = 10` e `Presenças mínimas = 3`, o personagem precisa aparecer em pelo menos 3 das últimas 10
+snapshots, em qualquer uma das regras acima.
+:::
+
+---
+
+## Whitelist de alistamento
+
+A whitelist permite que nicks específicos sejam **aceitos automaticamente** sem passar pelas verificações normais
+(nível mínimo, participação em BC, participação em PvP, etc.).
+
+1. Edite o clã (ele já precisa estar salvo)
+2. Com **Alistamento Automático** ativo, toque em **Whitelist**
+3. Adicione ou remova nicks conforme necessário
+4. Confirme — a whitelist é salva imediatamente
 
 ---
 

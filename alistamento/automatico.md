@@ -65,16 +65,28 @@ A participação pode ter sido registrada através de um personagem específico 
 - Uma notificação push pode ser enviada periodicamente enquanto o alistamento permanecer pendente.
 
 ::: tip Votos, personagem principal e personagens alternativos
-
 Dependendo da configuração definida pelo clã, o sistema pode considerar não apenas o personagem utilizado no voto, mas
 também seu personagem principal ou outros personagens vinculados à sua conta.
-
-Além disso, alguns clãs podem exigir participação nos últimos eventos de Bless Castle para liberar o alistamento
-automático.
 
 Por esse motivo, um personagem pode ser aceito mesmo que o voto tenha sido realizado por outro personagem da mesma
 conta, desde que isso esteja de acordo com as regras configuradas pelo clã.
 :::
+
+#### ✅ Verificação 6 — Participação em PvP (se configurado)
+
+Se o clã tiver ativado a validação de participação em PvP, o sistema verifica se o personagem esteve presente no local
+do evento durante a janela configurada, com base em **snapshots** de localização capturados periodicamente.
+
+O clã define:
+
+- **Quantas snapshots recentes** serão avaliadas (ex: últimas 10);
+- **Quantas presenças** são exigidas dentro dessas snapshots (ex: ao menos 3);
+- **Uma ou mais regras de localização**, cada uma com subservidor, mapa e janela de horário.
+
+Uma snapshot é considerada válida se o personagem aparecer em qualquer uma das regras de localização configuradas.
+
+- **Não atende às presenças mínimas** → Status **PENDENTE**
+- O pedido permanece na fila e será reavaliado automaticamente nos próximos ciclos.
 
 ### 4. Abertura de vagas (se necessário)
 
@@ -104,11 +116,16 @@ Nível ≥ mínimo do clã? ────── NÃO ──→ ❌ Rejeitado
 Cadastro ≤ 30 dias? ───────── NÃO ──→ ❌ Rejeitado
       │ SIM
       ▼
-Atende aos requisitos de participação em BC?
+Atende aos requisitos de participação em BC? (se configurado)
       │ NÃO
       ├────────→ ⏳ Pendente
-      │
-      ▼ SIM
+      │ SIM (ou não exigido)
+      ▼
+Atende às presenças em PvP? (se configurado)
+      │ NÃO
+      ├────────→ ⏳ Pendente
+      │ SIM (ou não exigido)
+      ▼
    ✅ ACEITO
 ```
 
@@ -134,3 +151,11 @@ elegível ao alistamento automático.
 
 Sim. Quando permitido pelas configurações do clã, votos registrados através da opção Piloto também podem ser
 considerados para validação da participação nos eventos.
+
+---
+
+**Como funciona a verificação de PvP?**
+
+O sistema analisa as últimas N snapshots de localização capturadas para o personagem. Se ele aparecer em pelo menos X
+delas dentro de um dos locais e horários configurados pelo clã, a verificação é aprovada. Caso contrário, o alistamento
+fica pendente até que as condições sejam atendidas.

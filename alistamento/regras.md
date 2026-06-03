@@ -37,17 +37,35 @@ Caso os requisitos de participação não sejam atendidos:
 - O personagem não é removido da fila;
 - O sistema tentará novamente nos próximos ciclos.
 
+### Regra 6 — Participação em PvP (opcional)
+
+Esta regra existe apenas quando o clã ativa a validação de participação em PvP.
+
+O sistema verifica se o personagem esteve presente no local correto (subservidor, mapa e horário) durante os eventos de
+PvP, com base em **snapshots** de localização capturados periodicamente.
+
+Para ser considerado presente, o personagem precisa aparecer em pelo menos **X snapshots** das últimas **N
+capturadas**, conforme configurado pelo Admin. Uma snapshot é válida se o personagem atender a qualquer uma das regras
+de localização definidas.
+
+Caso os requisitos de presença não sejam atendidos:
+
+- O alistamento permanece pendente;
+- O personagem não é removido da fila;
+- O sistema tentará novamente nos próximos ciclos.
+
 ---
 
 ## Tabela Resumo
 
-| Regra               | Configurável | Resultado se falhar |
-|---------------------|--------------|---------------------|
-| Personagem no app   | Não          | Removido            |
-| Usuário ativo       | Não          | Removido            |
-| Nível mínimo        | Sim          | Rejeitado           |
-| Cadastro atualizado | Não          | Rejeitado           |
-| Participação em BC  | Sim          | Pendente            |
+| Regra                 | Configurável | Resultado se falhar |
+|-----------------------|--------------|---------------------|
+| Personagem no app     | Não          | Removido            |
+| Usuário ativo         | Não          | Removido            |
+| Nível mínimo          | Sim          | Rejeitado           |
+| Cadastro atualizado   | Não          | Rejeitado           |
+| Participação em BC    | Sim          | Pendente            |
+| Participação em PvP   | Sim          | Pendente            |
 
 ---
 
@@ -79,3 +97,4 @@ Verifique:
 - O cadastro foi atualizado nos últimos 30 dias?
 - O nível atende ao mínimo exigido?
 - Você participou da quantidade de BCs exigida pelo clã?
+- Seu personagem esteve presente nos locais de PvP exigidos pelo clã?
