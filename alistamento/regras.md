@@ -73,13 +73,24 @@ Caso os requisitos de presença não sejam atendidos:
 
 Alguns clãs exigem participação em eventos de Bless Castle para liberar o alistamento automático.
 
-Dependendo da configuração escolhida pelo Admin do clã, o sistema pode considerar:
+**Como o sistema encontra o voto:**
+O sistema busca primeiro um voto onde o `nick` corresponda ao personagem solicitante. Se não for encontrado, verifica **exclusivamente** se o dono votou como **Piloto** naquele BC. Votos do dono em qualquer outro personagem não são considerados como alternativa.
+
+**Participação:** o personagem solicitante precisa aparecer nos votos com resposta Sim ou Não. Se não houver voto pelo nick, o sistema busca **somente** um voto de Piloto do dono naquele BC — votos do dono em outros personagens não substituem o voto do solicitante.
+
+**Voto decisivo:** somente o BC mais recente define a autorização. Caso o personagem tenha dois votos no mesmo BC (Sim e Não), o **Sim prevalece**. Os BCs anteriores servem apenas para confirmar participação.
+
+Para votos normais (Sim ou Não) do próprio personagem, as opções configuráveis são:
 
 - Apenas o personagem utilizado no voto;
 - Apenas o personagem principal;
 - O personagem utilizado no voto e o personagem principal;
-- Todos os personagens vinculados à mesma conta;
+- Todos os personagens do dono;
 - Ou nenhuma associação adicional.
+
+Quando o dono votou como **Piloto**, o clã pode configurar regras distintas para o piloto com Sim e para o piloto com Não. As mesmas opções acima se aplicam, exceto "apenas o personagem que votou" (que não se aplica ao piloto).
+
+O dono é consultado **exclusivamente** para verificar se votou como Piloto — votos do dono em outros personagens não são considerados como alternativa ao voto do solicitante.
 
 Também é possível que o clã exija participação em mais de um BC recente.
 

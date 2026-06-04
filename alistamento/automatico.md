@@ -64,12 +64,15 @@ A participação pode ter sido registrada através de um personagem específico 
 - O pedido permanece na fila e será reavaliado automaticamente nos próximos ciclos.
 - Uma notificação push pode ser enviada periodicamente enquanto o alistamento permanecer pendente.
 
-::: tip Votos, personagem principal e personagens alternativos
+::: tip Votos, personagem principal e voto como Piloto
 Dependendo da configuração definida pelo clã, o sistema pode considerar não apenas o personagem utilizado no voto, mas
-também seu personagem principal ou outros personagens vinculados à sua conta.
+também seu personagem principal ou todos os personagens da conta.
 
-Por esse motivo, um personagem pode ser aceito mesmo que o voto tenha sido realizado por outro personagem da mesma
-conta, desde que isso esteja de acordo com as regras configuradas pelo clã.
+Se o personagem solicitante não tiver voto registrado, o sistema verifica **exclusivamente** se o dono da conta votou
+como **Piloto** naquele BC. Votos do dono em qualquer outro personagem não são considerados como alternativa.
+
+Por esse motivo, um personagem pode ser aceito mesmo que o dono tenha votado como Piloto, desde que as regras do clã
+permitam.
 :::
 
 #### ✅ Verificação 6 — Participação em PvP (se configurado)

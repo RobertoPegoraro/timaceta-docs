@@ -158,12 +158,18 @@ considerada válida se o personagem atender a qualquer uma das regras configurad
 
 Para adicionar uma regra, toque em **Adicionar regra**. Para remover, toque no ícone de lixeira ao lado da regra.
 
-| Campo          | Descrição                                                              |
-|----------------|------------------------------------------------------------------------|
-| Subservidor    | Subservidor onde o PvP ocorreu (Alfa, Beta, Gama, Delta, Ômega, Zeta) |
-| Mapa           | Mapa do evento (Coração de Fogo, Santuário do Abismo, etc.)            |
-| Horário início | Início da janela de verificação (formato 24h, ex: 22:00)               |
-| Horário fim    | Fim da janela de verificação (formato 24h, ex: 23:00)                  |
+| Campo          | Obrigatório | Descrição                                                              |
+|----------------|-------------|------------------------------------------------------------------------|
+| Subservidor    | Sim         | Subservidor onde o PvP ocorreu (Alfa, Beta, Gama, Delta, Ômega, Zeta) |
+| Mapa           | Não         | Mapa do evento (Coração de Fogo, Santuário do Abismo, etc.)            |
+| Horário início | Sim         | Início da janela de verificação (formato 24h, ex: 22:00)               |
+| Horário fim    | Sim         | Fim da janela de verificação (formato 24h, ex: 23:00)                  |
+
+::: info
+Quando o campo **Mapa** não é preenchido, a validação considera apenas o subservidor e o horário — o mapa é ignorado.
+Quando preenchido, personagens localizados na cidade no momento do snapshot são ignorados; apenas o servidor é
+levado em consideração.
+:::
 
 ::: tip Exemplo com múltiplas regras
 Um clã pode configurar duas regras para cobrir diferentes eventos no mesmo ciclo:
