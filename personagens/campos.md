@@ -49,14 +49,14 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 
 **Opcional.** Selecione as relíquias que seu personagem possui. Você pode selecionar mais de uma.
 
-| Relíquia | | Relíquia | |
-|----------|-|----------|-|
-| Fúria    | | Shy      | |
-| Babel    | | Tulla    | |
-| Valento  | | Draxos   | |
-| Kelvezu  | | Greedy   | |
-| Mokova   | | Yagditha | |
-| Midranda | |          | |
+| Relíquia | | Relíquia        | |
+|----------|-|-----------------|-|
+| Fúria    | | Shy             | |
+| Babel    | | Tulla           | |
+| Valento  | | Draxos          | |
+| Kelvezu  | | Greedy          | |
+| Mokova   | | Yagditha        | |
+| Midranda | | Dama Flamejante | |
 
 ---
 
