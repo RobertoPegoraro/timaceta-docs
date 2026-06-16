@@ -109,8 +109,12 @@ integrante. Admin e Coordenador PvP — e quem criou o grupo — veem e gerencia
 - Aceita apenas personagens das classes de suporte: **Sacerdotisa, Mago e Xamã**
 - Apenas **um Grupo Mágico por clã, por evento**
 - Identificado visualmente com cabeçalho roxo e ícone ✨
-- Não tem um "gerenciador" fixo: qualquer pessoa pode adicionar ou remover **o próprio personagem mágico** (ou de
-  alguém que compartilhe com ela) diretamente, sem depender de Coordenador
+- Não tem um "gerenciador" fixo: qualquer pessoa pode abrir e editar o grupo, mas só pode adicionar ou remover **o
+  próprio personagem mágico** (ou de alguém que compartilhe com ela) — quem criou o grupo não tem privilégio extra
+  aqui
+- Apenas **Admin** e **Coordenador PvP** podem adicionar ou remover **qualquer** personagem mágico, de qualquer
+  membro — e são os únicos que também podem designar/alterar o piloto de um personagem que não é seu; quem criou o
+  grupo não tem essa exceção
 
 ---
 
@@ -133,8 +137,9 @@ Coordenador PvP).
 - O **tipo de grupo** e o **clã** não podem ser alterados depois que o grupo é criado
 - Um personagem **não pode estar em dois grupos** do mesmo evento — se já estiver, o app mostra em qual grupo ele está
   e bloqueia a seleção
-- No Grupo Mágico, a busca só retorna **seus próprios personagens** (ou compartilhados com você) das classes
-  Sacerdotisa, Mago ou Xamã
+- No Grupo Mágico, a busca normalmente só retorna **seus próprios personagens** (ou compartilhados com você) das
+  classes Sacerdotisa, Mago ou Xamã — exceto para **Admin** e **Coordenador PvP**, que podem buscar e adicionar o
+  personagem mágico de **qualquer membro** (quem criou o grupo não tem essa exceção)
 - Se o personagem já tiver uma confirmação ativa (piloto votou Sim) e o clã de destino já estiver com 65 confirmados,
   a adição é bloqueada
 :::
@@ -146,9 +151,11 @@ Coordenador PvP).
 | Adicionar/remover qualquer personagem (Normal)       | Admin, Coordenador PvP, quem criou o grupo                         |
 | Remover o próprio personagem (ou compartilhado)      | Qualquer membro vinculado a esse personagem                        |
 | Designar/alterar o piloto do próprio personagem      | Dono ou usuário com o personagem compartilhado                     |
-| Designar/alterar piloto de qualquer integrante       | Admin, Coordenador PvP, quem criou o grupo                         |
+| Designar/alterar piloto de qualquer integrante (Normal) | Admin, Coordenador PvP, quem criou o grupo                      |
 | Sair como piloto (remover-se da função)              | O próprio piloto designado                                          |
-| Adicionar/remover no Grupo Mágico                    | Apenas o dono/compartilhado do personagem mágico em questão        |
+| Adicionar/remover qualquer personagem (Mágico)        | Admin, Coordenador PvP                                              |
+| Adicionar/remover o próprio personagem (Mágico)       | Dono ou usuário com o personagem compartilhado                     |
+| Designar/alterar piloto de qualquer integrante (Mágico) | Admin, Coordenador PvP                                           |
 | Excluir o grupo inteiro                              | Apenas Admin e Coordenador PvP                                      |
 
 ::: info Conflito de edição
