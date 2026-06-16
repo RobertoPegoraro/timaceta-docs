@@ -1,7 +1,13 @@
 # Eventos — BC e PvP
 
 O sistema gerencia dois tipos de eventos: **Bless Castle (BC)** e **PvP**. Cada um tem seu próprio coordenador
-responsável.
+responsável e sua **própria tela** — não é o mesmo formulário para os dois.
+
+::: tip Votação de PvP é diferente
+Em eventos de **BC** você vota uma vez por conta (SIM/NÃO). Em eventos de **PvP** a votação é feita **por
+personagem**, há grupos organizados por clã e personagens podem ter um piloto. Veja o guia dedicado em
+[PvP — Votação, Grupos e Pilotos](/eventos/grupos-pvp).
+:::
 
 ## Por que registrar presença em eventos?
 
@@ -15,10 +21,10 @@ que você não possa ir, vote "NÃO" — o que importa é que você se manifesto
 
 ---
 
-## Como votar em um evento
+## Como votar em um evento de BC
 
 1. Abra o menu lateral e vá em **Eventos**
-2. Selecione o evento desejado (BC ou PvP)
+2. Selecione o evento de BC desejado
 3. Leia as informações (data, hora, descrição)
 4. Registre sua presença:
     - **SIM** — Vou participar
@@ -29,27 +35,28 @@ que você não possa ir, vote "NÃO" — o que importa é que você se manifesto
 Você receberá uma **notificação push** quando um evento for criado ou quando a votação for aberta.
 :::
 
+Para votar em um evento de **PvP**, veja [como votar por personagem](/eventos/grupos-pvp#votar-em-um-evento-pvp) —
+o fluxo é diferente do BC.
+
 ---
 
-## Criar e Gerenciar Eventos (Coordenadores)
+## Criar e Gerenciar Eventos de BC (Coordenador BC / Admin)
 
-### Quem pode criar
-
-- **Coordenador BC** — cria e gerencia eventos de Bless Castle
-- **Coordenador PvP** — cria e gerencia eventos de PvP
-- **Admin** — pode criar qualquer tipo
-
-### Criar um evento
+### Criar um evento de BC
 
 1. Vá em **Eventos**
 2. Toque em **+** (adicionar)
 3. Preencha:
-    - **Tipo:** BC ou PvP
-    - **Data e hora** do evento
-    - **Descrição** (detalhes, orientações)
+    - **Descrição**, **Clã/Tag** e **Data**
+    - **Planilha do Google Sheets** vinculada (usada para gerar relatórios ao encerrar)
 4. Toque em **Salvar**
 
-Uma notificação é enviada automaticamente para os membros configurados.
+Uma notificação é enviada automaticamente para todos os usuários ativos.
+
+::: info Criar evento de PvP
+Eventos de PvP têm seu próprio formulário, com **Clã Primário** (obrigatório) e **Clã Secundário** (opcional) em vez de
+uma única tag. Veja [Estrutura de um evento PvP](/eventos/grupos-pvp#estrutura-de-um-evento-pvp).
+:::
 
 ### Ver os votos
 
@@ -59,11 +66,11 @@ Uma notificação é enviada automaticamente para os membros configurados.
     - Contagem: SIM / NÃO / SEM RESPOSTA
     - Lista de quem votou e quando
 
-### Encerrar um evento
+### Encerrar um evento de BC
 
 1. Acesse o evento
-2. Toque em **Encerrar**
-3. O evento passa para status **inativo**
+2. Toque em **Encerrar Votação**
+3. O sistema grava os votos na planilha vinculada e o evento passa para status **inativo**
 
 ::: info
 Após encerrar, o evento fica no histórico. O sistema de alistamento usa o **último BC encerrado** como referência para a
@@ -77,12 +84,13 @@ verificação de voto.
 
 ---
 
-## Grupos PvP
+## PvP — Votação por personagem, Grupos e Pilotos
 
-Além dos eventos, o sistema suporta **Grupos PvP** para organizar equipes fixas de 5 jogadores. Qualquer membro pode
-visualizar os grupos. Coordenadores PvP podem criar e editar.
+O PvP tem fluxo próprio: votação por personagem, clãs Primário/Secundário, grupos Normais e Mágico, e designação de
+pilotos. Qualquer membro pode visualizar e até criar/gerenciar grupos PvP que ele mesmo criar; Coordenadores PvP e
+Admins gerenciam todos os grupos e eventos.
 
-Veja o guia completo em [Grupos PvP](/eventos/grupos-pvp).
+Veja o guia completo em [PvP — Votação, Grupos e Pilotos](/eventos/grupos-pvp).
 
 ---
 

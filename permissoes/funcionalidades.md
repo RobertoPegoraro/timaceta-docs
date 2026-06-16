@@ -73,11 +73,18 @@ Esta página descreve em detalhe as funcionalidades exclusivas de cada cargo.
 
 ## Funcionalidades do Coordenador PvP
 
-- Criar evento de PvP
-- Editar e encerrar eventos PvP
-- Ver resultados de votação
-- Criar e gerenciar grupos PvP (equipes fixas)
-- Associar participantes aos grupos
+- Criar evento de PvP (com Clã Primário e, opcionalmente, Clã Secundário)
+- Editar e ativar/desativar eventos PvP
+- Ver a tela de Confirmações (todos os votos, com filtro Sim/Não/Todos)
+- Criar, editar e **excluir** qualquer grupo PvP (Normal ou Mágico) do evento
+- Designar ou alterar o piloto de qualquer personagem em qualquer grupo
+- Exportar a lista de grupos formatada (compartilhar via WhatsApp)
+
+::: info Criar grupos não é exclusivo do Coordenador
+Qualquer membro pode criar um grupo PvP e gerenciá-lo (adicionar/remover personagens, designar pilotos). A diferença do
+Coordenador/Admin é que eles gerenciam **todos** os grupos do evento (não só os que criaram) e são os únicos que podem
+**excluir** um grupo. Veja [PvP — Votação, Grupos e Pilotos](/eventos/grupos-pvp).
+:::
 
 ---
 

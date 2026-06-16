@@ -136,7 +136,9 @@ Além das manuais, o sistema envia notificações automáticas em vários moment
 | Novo recrutamento criado                      | Admins e Recrutadores             |
 | Votação de recrutamento aberta                | Membros configurados              |
 | Recrutamento aprovado/rejeitado               | Votantes do recrutamento          |
-| Evento criado                                 | Membros configurados              |
+| Evento (BC ou PvP) criado                     | Todos os usuários ativos          |
+| Personagem adicionado a um grupo PvP          | Usuários vinculados ao personagem |
+| Piloto PvP designado ou alterado              | O usuário designado como piloto   |
 | Regras atualizadas                            | Todos os usuários                 |
 
 ---

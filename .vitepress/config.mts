@@ -65,7 +65,7 @@ export default defineConfig({
         text: 'Eventos (BC e PvP)',
         items: [
           { text: 'Eventos e Votação', link: '/eventos/' },
-          { text: 'Grupos PvP', link: '/eventos/grupos-pvp' },
+          { text: 'PvP — Votação, Grupos e Pilotos', link: '/eventos/grupos-pvp' },
         ],
       },
       {

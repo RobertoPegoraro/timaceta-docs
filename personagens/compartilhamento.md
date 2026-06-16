@@ -74,7 +74,7 @@ O usuário removido perde o vínculo com o personagem e ele deixa de aparecer na
 ## Perguntas frequentes
 
 **Posso editar um personagem que foi compartilhado comigo?**
-Sim. Qualquer usuário vinculado ao personagem pode editar todos os campos, incluindo o campo "Compartilhado com".
+Sim. Qualquer usuário vinculado ao personagem pode editar todos os campos, exceto o campo "Compartilhado com".
 
 **O compartilhamento afeta o alistamento?**
 Sim, positivamente. Se o personagem está compartilhado com você e sua conta está ativa, o alistamento automático o
@@ -85,4 +85,4 @@ Não há limite definido pelo sistema.
 
 **E se o dono original sair do clã e excluir a conta?**
 Os usuários que tinham o personagem compartilhado perdem o acesso porém as pessoas que tem compartilhamento (share)
-continuam com o personagem.
+continuam com o personagem caso o personagem não tenha sido excluído pelo dono original antes de sair do clã.

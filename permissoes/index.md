@@ -52,9 +52,14 @@ Responsável pelos eventos PvP.
 **Pode fazer (além do membro comum):**
 
 - Criar e editar eventos de PvP
-- Ver resultados de votação de PvP
-- Encerrar eventos de PvP
-- Gerenciar grupos PvP
+- Ver resultados de votação de PvP (tela de Confirmações)
+- Ativar/desativar eventos de PvP
+- Gerenciar **todos** os grupos PvP do evento (criar, editar, excluir, designar piloto de qualquer um)
+
+::: tip
+Criar e gerenciar **o próprio** grupo PvP não é exclusivo do Coordenador — qualquer membro comum também pode. O que é
+exclusivo do Coordenador (e do Admin) é gerenciar grupos criados por outras pessoas e excluir grupos.
+:::
 
 ---
 
@@ -102,7 +107,8 @@ Acesso total ao sistema.
 | Gerenciar recrutamento      |   ❌    |     ✅      |     ❌     |     ❌      |    ❌     |   ✅   |
 | Criar evento BC             |   ❌    |     ❌      |     ✅     |     ❌      |    ❌     |   ✅   |
 | Criar evento PvP            |   ❌    |     ❌      |     ❌     |     ✅      |    ❌     |   ✅   |
-| Gerenciar grupos PvP        |   ❌    |     ❌      |     ❌     |     ✅      |    ❌     |   ✅   |
+| Criar/gerenciar o próprio grupo PvP |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
+| Gerenciar/excluir qualquer grupo PvP |   ❌    |     ❌      |     ❌     |     ✅      |    ❌     |   ✅   |
 | Ver membros do clã (Painel) |   ❌    |     ❌      |     ❌     |     ❌      |    ✅     |   ✅   |
 | Aceitar/rejeitar alistados  |   ❌    |     ❌      |     ❌     |     ❌      |    ✅     |   ✅   |
 | Gerenciar clãs              |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
