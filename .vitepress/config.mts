@@ -92,7 +92,6 @@ export default defineConfig({
           { text: 'Configurações do Sistema', link: '/admin/configuracoes' },
           { text: 'Notificações', link: '/admin/notificacoes' },
           { text: 'Avisos e Dicas', link: '/admin/avisos' },
-          { text: 'Usuários Inativos', link: '/admin/inatividade' },
           { text: 'Relatórios (Google Sheets)', link: '/admin/relatorios' },
         ],
       },
