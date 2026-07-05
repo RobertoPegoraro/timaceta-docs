@@ -84,6 +84,14 @@ Mantenha sempre atualizado. Nível desatualizado pode impedir o alistamento se o
 
 ---
 
+### Possui bracelete Dama Flamejante?
+
+**Obrigatório.** Selecione **Sim** ou **Não**.
+
+**Aging Bracelete Dama Flamejante:** O nível de "aging" do item.
+
+---
+
 ### Possui amuleto do Yag?
 
 **Obrigatório.** Selecione **Sim** ou **Não**.
@@ -125,5 +133,6 @@ destacados em vermelho com a mensagem de correção.
 | Verthex Ataque   | Sim/Não obrigatório; se Sim, aging 0-999 |
 | Armadura Verthex | Sim/Não obrigatório; se Sim, aging 0-999 |
 | Luvas Greedy     | Sim/Não obrigatório; se Sim, aging 0-999 |
+| Bracelete Dama Flamejante | Sim/Não obrigatório; se Sim, aging 0-999 |
 | Amuleto Yag      | Sim/Não obrigatório                      |
 | Quests completas | Sim/Não obrigatório                      |
