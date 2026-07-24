@@ -1,17 +1,16 @@
 # Criar Conta
 
 ::: warning Funcionalidade controlada por Admin
-A criação de novas contas pode estar **desativada** pelo administrador. Se a opção não aparecer na tela de login, entre
-em contato com um Admin para solicitar acesso.
+A criação de novas contas pode estar **desativada** pelo administrador. Se a opção não aparecer na tela de login, entre em contato com um Admin para solicitar acesso.
 :::
 
 ## Passo a Passo
 
 1. Na tela de login, toque em **"Criar Conta"**
 2. Preencha:
-    - **E-mail** — será seu login
-    - **Senha** — mínimo de 6 caracteres
-    - **Confirmar senha** — deve ser igual à senha
+   - **E-mail** — será seu login
+   - **Senha** — mínimo de 6 caracteres
+   - **Confirmar senha** — deve ser igual à senha
 3. Toque em **Criar**
 4. Uma mensagem confirmará que a conta foi criada
 
@@ -24,6 +23,12 @@ Sua conta é criada como **inativa**. Isso significa que:
 - Após a ativação, você receberá um contato do clã informando que já pode entrar
 
 > **Próximo passo:** Entre em contato com a liderança do clã para solicitar a ativação da sua conta.
+
+## Verificação de e-mail (se ativada pelo Admin)
+
+Dependendo da configuração do clã, pode haver uma etapa extra logo após a criação da conta: a **verificação de e-mail obrigatória**.
+
+Se essa exigência estiver ativada, você recebe um e-mail de confirmação e precisa clicar no link recebido antes de conseguir usar o app normalmente. Se o seu clã não utiliza essa exigência, essa etapa simplesmente não aparece.
 
 ## Após a ativação
 

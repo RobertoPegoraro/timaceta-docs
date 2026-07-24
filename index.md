@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Timaceta"
   text: "Manual do Sistema"
-  tagline: Documentação completa para gestão de clãs no Priston Tales (Painel)
+  tagline: Documentação completa para gestão de clãs no Priston Tales
   actions:
     - theme: brand
       text: Começar por aqui
@@ -34,9 +34,17 @@ features:
     details: O processo de votação e aprovação de novos candidatos ao clã.
     link: /recrutamento/
   - icon: 🏰
-    title: Eventos (BC e PvP)
-    details: Como registrar presença em eventos e por que isso afeta o alistamento.
+    title: Bless Castle
+    details: Votação de presença, escalação por setores e grupos do evento de Bless Castle.
     link: /eventos/
+  - icon: ⚔️
+    title: PvP
+    details: Votação por personagem, grupos Normal e Grupo Mágico, piloto e solicitações.
+    link: /eventos/grupos-pvp
+  - icon: 🎙️
+    title: TeamSpeak
+    details: Entre no canal de voz do clã direto pelo app, sem instalar outro programa.
+    link: /teamspeak/
   - icon: ⚙️
     title: Administração
     details: Gestão de clãs, usuários, configurações e permissões do sistema.
@@ -49,7 +57,9 @@ O **Timaceta APP** é o sistema oficial de gestão do clã para o jogo **Priston
 
 - O **alistamento de novos membros** (automático e manual)
 - O **processo de recrutamento** com votação interna
-- O **gerenciamento de eventos** de Bless Castle (BC) e PvP
-- O **controle de permissões** por cargo (Admin, Recrutador, Coordenador etc.)
+- O **gerenciamento de eventos** de **Bless Castle (BC)** e **PvP** — dois módulos independentes, cada um com sua própria votação e organização de grupos
+- A **comunicação por voz** do clã, com um cliente de TeamSpeak embutido no próprio app
+- O **mural de novidades** (changelog do app) e as **dicas** publicadas pelo Admin
+- O **controle de permissões** por cargo (Admin, Recrutador, Coordenador BC, Coordenador PvP, Gerenciador de Clã)
 
 > **Dúvidas?** Procure um Admin ou Recrutador no grupo do clã.

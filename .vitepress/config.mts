@@ -2,9 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Timaceta — Manual do Sistema',
-  description: 'Documentação completa do app Timaceta para gestão de clãs no Priston Tales (Painel)',
+  description: 'Documentação completa do app Timaceta para gestão de clãs no Priston Tales',
   lang: 'pt-BR',
-  base: '/timaceta-docs/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#1a1a2e' }],
@@ -65,7 +64,8 @@ export default defineConfig({
         text: 'Eventos (BC e PvP)',
         items: [
           { text: 'Eventos e Votação', link: '/eventos/' },
-          { text: 'PvP — Votação, Grupos e Pilotos', link: '/eventos/grupos-pvp' },
+          { text: 'Grupos PvP', link: '/eventos/grupos-pvp' },
+          { text: 'Escalação de BC', link: '/eventos/escalacao-bc' },
         ],
       },
       {
@@ -74,6 +74,14 @@ export default defineConfig({
           { text: 'Regras', link: '/regras/' },
           { text: 'Horário dos Bosses', link: '/horario-boss/' },
           { text: 'Política de Privacidade', link: '/privacidade/' },
+        ],
+      },
+      {
+        text: 'Recursos Extras',
+        items: [
+          { text: 'TeamSpeak', link: '/teamspeak/' },
+          { text: 'Novidades', link: '/novidades/' },
+          { text: 'Dicas', link: '/dicas/' },
         ],
       },
       {
@@ -91,8 +99,7 @@ export default defineConfig({
           { text: 'Gerenciar Usuários', link: '/admin/usuarios' },
           { text: 'Configurações do Sistema', link: '/admin/configuracoes' },
           { text: 'Notificações', link: '/admin/notificacoes' },
-          { text: 'Avisos e Dicas', link: '/admin/avisos' },
-          { text: 'Relatórios (Google Sheets)', link: '/admin/relatorios' },
+          { text: 'Gestão', link: '/admin/gestao' },
         ],
       },
     ],
@@ -104,7 +111,7 @@ export default defineConfig({
     socialLinks: [],
 
     footer: {
-      message: 'Timaceta — Gestão de Clãs para Priston Tales (Painel)',
+      message: 'Timaceta — Gestão de Clãs para Priston Tales',
       copyright: 'Documentação interna — uso restrito ao clã',
     },
 

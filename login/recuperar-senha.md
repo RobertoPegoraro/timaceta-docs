@@ -22,11 +22,9 @@ Se o e-mail de recuperação não chegou:
 - Tente novamente
 
 ::: warning E-mail não cadastrado
-Se você criou sua conta usando **Login com Google** ou **Login com Apple**, a recuperação de senha padrão pode não
-funcionar. Nesses casos, recupere o acesso diretamente pela sua conta Google ou Apple.
+Se você criou sua conta usando **Login com Google** ou **Login com Apple**, a recuperação de senha padrão pode não funcionar. Nesses casos, recupere o acesso diretamente pela sua conta Google ou Apple.
 :::
 
 ## Dificuldades?
 
-Se não conseguir recuperar o acesso mesmo assim, entre em contato com um **Admin** do clã para que ele possa verificar
-ou redefinir sua conta.
+Se não conseguir recuperar o acesso mesmo assim, entre em contato com um **Admin** do clã para que ele possa verificar ou redefinir sua conta.

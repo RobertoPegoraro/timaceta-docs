@@ -9,7 +9,6 @@ O sistema usa um modelo de cargos por permissão. Cada usuário pode ter zero ou
 Todo usuário com conta **ativa** tem acesso básico ao sistema.
 
 **Pode fazer:**
-
 - Fazer login no app
 - Ver avisos, dicas e regras
 - Completar perfil e cadastrar personagens
@@ -24,7 +23,6 @@ Todo usuário com conta **ativa** tem acesso básico ao sistema.
 Responsável pelo processo de candidatura de novos membros.
 
 **Pode fazer (além do membro comum):**
-
 - Criar e editar recrutamentos
 - Ativar e encerrar votações
 - Aprovar ou rejeitar candidatos
@@ -38,7 +36,6 @@ Responsável pelo processo de candidatura de novos membros.
 Responsável pelos eventos de Bless Castle.
 
 **Pode fazer (além do membro comum):**
-
 - Criar e editar eventos de BC
 - Ver resultados de votação de BC
 - Encerrar eventos de BC
@@ -50,16 +47,10 @@ Responsável pelos eventos de Bless Castle.
 Responsável pelos eventos PvP.
 
 **Pode fazer (além do membro comum):**
-
 - Criar e editar eventos de PvP
-- Ver resultados de votação de PvP (tela de Confirmações)
-- Ativar/desativar eventos de PvP
-- Gerenciar **todos** os grupos PvP do evento (criar, editar, excluir, designar piloto de qualquer um)
-
-::: tip
-Criar e gerenciar **o próprio** grupo PvP não é exclusivo do Coordenador — qualquer membro comum também pode. O que é
-exclusivo do Coordenador (e do Admin) é gerenciar grupos criados por outras pessoas e excluir grupos.
-:::
+- Ver resultados de votação de PvP
+- Encerrar eventos de PvP
+- Gerenciar grupos PvP
 
 ---
 
@@ -68,7 +59,6 @@ exclusivo do Coordenador (e do Admin) é gerenciar grupos criados por outras pes
 Gerencia a lista de membros diretamente no Painel, via app.
 
 **Pode fazer (além do membro comum):**
-
 - Ver lista de membros do clã (dados do Painel)
 - Aceitar alistados manualmente
 - Rejeitar alistados
@@ -81,41 +71,42 @@ Gerencia a lista de membros diretamente no Painel, via app.
 Acesso total ao sistema.
 
 **Pode fazer (tudo acima, mais):**
-
 - Criar, editar e deletar clãs
-- Ativar/desativar alistamento automático e manual por clã
+- Ativar/desativar alistamento automático e manual por clã, e configurar um conjunto bem mais amplo de regras de alistamento por clã — exigência de voto em BC, exigência de voto e/ou presença em PvP, blacklist/whitelist de nicks, janelas de horário ("PvP Ativo" e "Escalação BC"), proteção de pontuadores de SoD e notificação a Gerenciadores de Clã sobre pendências. Veja o detalhamento em [Funcionalidades por Cargo](/permissoes/funcionalidades) e [Gerenciar Clãs](/admin/clas)
 - Gerenciar usuários (ativar/desativar, alterar cargos)
 - Gerenciar configurações globais do sistema
 - Enviar notificações para todos/grupos
 - Editar regras, avisos e dicas
 - Ver auditorias de aceite de termos
 - Gerar relatórios
-- Deletar recrutamentos
+
+::: tip Deletar recrutamentos não é exclusivo de Admin
+Qualquer **Recrutador** também pode deletar um recrutamento — veja [Gerenciar Candidatos](/recrutamento/gerenciar).
+:::
 
 ---
 
 ## Tabela resumo de permissões
 
-| Funcionalidade              | Membro | Recrutador | Coord. BC | Coord. PvP | Ger. Clã | Admin |
-|-----------------------------|:------:|:----------:|:---------:|:----------:|:--------:|:-----:|
-| Login e perfil              |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
-| Ver avisos/dicas/regras     |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
-| Cadastrar personagens       |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
-| Votar em recrutamento       |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
-| Votar em eventos            |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
-| Alistamento manual          |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
-| Gerenciar recrutamento      |   ❌    |     ✅      |     ❌     |     ❌      |    ❌     |   ✅   |
-| Criar evento BC             |   ❌    |     ❌      |     ✅     |     ❌      |    ❌     |   ✅   |
-| Criar evento PvP            |   ❌    |     ❌      |     ❌     |     ✅      |    ❌     |   ✅   |
-| Criar/gerenciar o próprio grupo PvP |   ✅    |     ✅      |     ✅     |     ✅      |    ✅     |   ✅   |
-| Gerenciar/excluir qualquer grupo PvP |   ❌    |     ❌      |     ❌     |     ✅      |    ❌     |   ✅   |
-| Ver membros do clã (Painel) |   ❌    |     ❌      |     ❌     |     ❌      |    ✅     |   ✅   |
-| Aceitar/rejeitar alistados  |   ❌    |     ❌      |     ❌     |     ❌      |    ✅     |   ✅   |
-| Gerenciar clãs              |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
-| Gerenciar usuários          |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
-| Configurações do sistema    |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
-| Enviar notificações         |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
-| Editar avisos/dicas/regras  |   ❌    |     ❌      |     ❌     |     ❌      |    ❌     |   ✅   |
+| Funcionalidade | Membro | Recrutador | Coord. BC | Coord. PvP | Ger. Clã | Admin |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Login e perfil | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Ver avisos/dicas/regras | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Cadastrar personagens | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Votar em recrutamento | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Votar em eventos | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Alistamento manual | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Gerenciar recrutamento | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Criar evento BC | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ |
+| Criar evento PvP | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ |
+| Gerenciar grupos PvP | ❌ | ❌ | ❌ | ✅ | ❌ | ✅ |
+| Ver membros do clã (Painel) | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Aceitar/rejeitar alistados | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Gerenciar clãs | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Gerenciar usuários | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Configurações do sistema | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Enviar notificações | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Editar avisos/dicas/regras | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 ---
 

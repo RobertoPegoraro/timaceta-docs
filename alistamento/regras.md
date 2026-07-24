@@ -1,178 +1,165 @@
 # Regras de Aceite e Rejeição
 
-Esta página detalha as regras verificadas pelo sistema antes de aceitar ou rejeitar um alistamento, na ordem em que
-são checadas.
+Esta página detalha todas as regras verificadas pelo sistema antes de aceitar ou rejeitar um alistamento.
 
 ## Regras em ordem de verificação
 
-### Regra 0 — Blacklist (opcional)
-
-Esta regra existe apenas quando o Admin cadastra nicks na blacklist do clã. É a **primeira** coisa verificada — se o
-nick do alistado estiver na lista, nenhuma das regras seguintes (nem a whitelist) é avaliada.
-
-O resultado depende da **ação** configurada para a blacklist, que vale para todos os nicks da lista:
-
-- **Rejeitar** — o personagem é removido automaticamente da fila;
-- **Pendente** — o alistamento fica pendente aguardando aprovação manual da liderança.
-
-Em ambos os casos, o dono do personagem é notificado do motivo. Coordenadores/admins só são notificados quando a
-ação é "Pendente" (e a opção de notificar coordenadores estiver ativa).
-
-### Regra 0.5 — Whitelist (opcional)
-
-Esta regra existe apenas quando o Admin cadastra nicks na whitelist do clã. Um nick na whitelist é **aceito
-imediatamente**, sem passar pelas Regras 1 a 7 abaixo — inclusive nível mínimo, cadastro atualizado, voto BC, voto
-PvP, participação em PvP e PvP Ativo.
+As regras são verificadas na seguinte ordem. Assim que uma falha é encontrada, o processo para:
 
 ### Regra 1 — Personagem cadastrado no app
 
-O personagem precisa existir no APP Timaceta.
+**O que verifica:** Se o nick do personagem existe no banco de dados do Timaceta.
+
+**Como cumprir:** [Cadastre seu personagem](/personagens/) no app com o nick **exatamente igual** ao do Painel (maiúsculas e minúsculas importam).
+
+**O que acontece se falhar:**
+- Removido da fila silenciosamente (sem notificação)
+- Sem mensagem de erro — o personagem simplesmente não entra
+
+---
 
 ### Regra 2 — Usuário ativo no app
 
-É necessário existir uma conta ativa vinculada ao personagem.
+**O que verifica:** Se existe um usuário do app com a conta ativa vinculado ao personagem cadastrado.
+
+**Como cumprir:** Ter uma conta ativa no Timaceta vinculada ao personagem.
+
+**O que acontece se falhar:**
+- Removido da fila silenciosamente (sem notificação)
+
+---
 
 ### Regra 3 — Nível mínimo do clã
 
-O personagem deve atender ao nível mínimo configurado pelo clã.
+**O que verifica:** Se o nível do personagem é maior ou igual ao nível mínimo configurado para o clã.
+
+**Como cumprir:** Ter o nível exigido. O nível mínimo de cada clã é definido pelo Admin.
+
+**O que acontece se falhar:**
+- Rejeitado e removido da fila
+- Notificação enviada:
+  > *"[Nick] não possui o nível mínimo exigido pelo clã [NomeCla]"*
+
+---
 
 ### Regra 4 — Cadastro atualizado
 
-O cadastro do personagem deve ter sido atualizado nos últimos 30 dias.
+**O que verifica:** Se o cadastro do personagem no app foi atualizado nos **últimos 30 dias**.
 
-### Regra 5 — Voto BC, voto PvP e participação em PvP, combinados por E/OU (opcional)
+**Como cumprir:** Periodicamente, acesse o app → Personagens → selecione o personagem → toque em **Salvar** (mesmo sem alterar nada). Isso atualiza a data de verificação.
 
-Estas três regras só existem quando o clã ativa a respectiva validação, e podem ser combinadas de duas formas
-(opção **Combinação das regras**, configurada pelo Admin):
+**O que acontece se falhar:**
+- Rejeitado e removido da fila
+- Notificação enviada:
+  > *"Cadastro desatualizado. Acesse o app, vá em Personagens e clique em Salvar."*
 
-- **E** (padrão) — o personagem precisa atender a **todas** as regras ativas;
-- **OU** — basta atender a **uma** das regras ativas.
+::: tip Dica
+Configure um lembrete mensal para atualizar seu personagem no app. Basta abrir o personagem e salvar — leva menos de 10 segundos.
+:::
 
-Se nenhuma das três estiver ativa, esta etapa é sempre aprovada. Se só uma estiver ativa, o modo E/OU não faz
-diferença.
+---
 
-#### Voto em eventos de BC
+### Regra 5 — Participação em eventos de BC (opcional e configurável)
 
-Dependendo da configuração do clã, pode ser necessário:
+**O que verifica:** Se o clã tiver a exigência de participação em Bless Castle ativada, o sistema verifica se você **atende aos critérios de participação** configurados pelo Admin. Não é uma regra binária simples — é um subsistema com várias opções:
 
-- Ter participado do último BC;
-- Ter participado dos últimos 2 BCs;
-- Ter participado dos últimos 3 BCs;
-- Ou outra quantidade definida pelo Admin.
+- **Número de eventos considerados:** o Admin define quantos eventos de BC recentes entram na conta (padrão: 1, o último evento encerrado).
+- **Quatro regras independentes**, cada uma ativável separadamente pelo Admin:
+  - Quem **votou Sim** no evento
+  - Quem **votou Não** no evento
+  - Quem teve **voto Sim registrado como piloto** de outro personagem
+  - Quem teve **voto Não registrado como piloto** de outro personagem
+- **O que cada regra libera:** para cada uma das quatro regras acima, o Admin escolhe quem fica autorizado a entrar — apenas aquele personagem, todos os personagens do usuário, apenas o personagem principal, o personagem + o principal, ou nenhum personagem.
 
-#### Voto em eventos de PvP
+**Aplicação:** Esta regra só existe se o Admin do clã ativou a exigência de participação em BC.
 
-Mesma lógica da regra acima, mas usando os votos registrados nos eventos de PvP em vez dos de BC.
+**Como cumprir:** Vote no evento de BC pelo app (seção Eventos → selecione o BC → registre seu voto). Se o clã liberar por voto de piloto, o voto do piloto do seu personagem principal pode contar (dependendo da regra configurada).
 
-#### Participação em PvP (snapshots)
+**O que acontece se falhar:**
+- Status **PENDENTE** (não é rejeitado — fica na fila)
+- Uma notificação push é enviada (máximo 1 vez a cada 6 horas):
+  > *"{nick} não atende aos critérios de participação nos últimos {n} evento(s) de Bless Castle configurados. Entre em contato com a liderança."*
+- Após atender aos critérios, será aceito automaticamente no próximo ciclo
 
-O sistema verifica se o personagem esteve presente no local correto (subservidor, mapa e horário) durante os eventos de
-PvP, com base em **snapshots** de localização capturados periodicamente.
+::: warning Bloqueio por troca de personagem principal
+Se você trocou de personagem principal recentemente, o alistamento desse personagem fica **bloqueado por 24 horas**, independente do voto, com notificação própria avisando do bloqueio temporário.
+:::
 
-Para ser considerado presente, o personagem precisa aparecer em pelo menos **X snapshots** das últimas **N
-capturadas**, conforme configurado pelo Admin. Uma snapshot é válida se o personagem atender a qualquer uma das regras
-de localização definidas. O clã também define o que fazer com presenças offline: considerar válido, deixar
-pendente, ou **rejeitar automaticamente**.
+---
 
-#### Resultado se as regras da Regra 5 não forem atendidas
+### Regra adicional — Participação em eventos de PvP (opcional e configurável)
 
-- Na maioria dos casos, o alistamento permanece **pendente** e será reavaliado nos próximos ciclos;
-- **Exceção:** se especificamente a regra de participação em PvP falhar com a política de offline configurada
-  como "Rejeitar", o alistamento é **rejeitado** direto — mesmo no modo OU, se essa for a última regra ativa
-  avaliada.
-- O personagem não é removido da fila enquanto pendente.
+**O que verifica:** O clã pode configurar, separadamente do BC, uma exigência de participação em eventos de **PvP** — voto no evento e/ou presença confirmada. A estrutura de regras (número de eventos, quem libera o quê) segue a mesma lógica da Regra 5.
 
-### Regra 6 — PvP Ativo (opcional)
+**Combinação com a regra de BC:** se o clã exigir BC e PvP ao mesmo tempo, o Admin escolhe se as duas regras se combinam por **E** (as duas precisam ser cumpridas) ou por **OU** (uma das duas já basta).
 
-Esta regra é **independente** da combinação E/OU da Regra 5 — funciona como um filtro adicional, avaliado somente
-depois que o personagem já foi aprovado pelas Regras 1 a 5. Só entra em vigor quando, simultaneamente: a opção está
-ativada no clã, o horário atual está dentro da janela configurada, e existe um evento de PvP ativo do clã marcado
-para o dia de hoje.
+**O que acontece se falhar:** Status **PENDENTE**, com notificação própria de pendência por PvP.
 
-Quando em vigor, o clã escolhe o critério: **personagem adicionado no grupo** (basta estar no grupo do PvP ativo)
-ou **apenas personagens confirmados** (precisa ter confirmado presença/votado Sim).
+---
 
-Caso os requisitos de presença não sejam atendidos:
+### Regra adicional — Janelas de horário "PvP Ativo" e "Escalação BC"
 
-- O alistamento permanece pendente, mesmo que já tenha sido aprovado pela Regra 5;
-- O personagem não é removido da fila;
-- O sistema tentará novamente nos próximos ciclos.
+Independente das regras de voto, o clã pode ativar janelas de horário que suspendem temporariamente o alistamento de quem não está engajado no momento:
 
-Um nick na whitelist (Regra 0.5) dispensa esta verificação.
+- **PvP Ativo:** em horários configurados, só passam quem está em grupo de PvP ou com presença confirmada naquele momento.
+- **Escalação BC:** nos dias de evento de BC, das **10h às 14h30 (horário de Brasília)**, só passa quem está escalado na Escalação de BC do dia.
+
+Fora dessas janelas as regras normais (Regra 5 e regra de PvP) voltam a valer normalmente.
+
+---
+
+### Regra adicional — Whitelist e blacklist de nicks
+
+O Admin pode cadastrar, por clã:
+
+- **Whitelist:** nicks **sempre aceitos**, ignorando as demais regras de participação
+- **Blacklist:** nicks **sempre rejeitados ou pendentes**, independente de atenderem às outras regras
 
 ---
 
 ## Tabela Resumo
 
-| Regra                          | Configurável | Combina com E/OU? | Resultado se falhar                          |
-|----------------------------------|:------------:|:------------------:|-----------------------------------------------|
-| Blacklist                        | Sim          | —                   | Rejeitado ou Pendente (conforme ação)          |
-| Whitelist                        | Sim          | —                   | (bypassa tudo — sempre aceito)                 |
-| Personagem no app                | Não          | —                   | Removido                                       |
-| Usuário ativo                    | Não          | —                   | Removido                                       |
-| Nível mínimo                     | Sim          | —                   | Rejeitado                                      |
-| Cadastro atualizado              | Não          | —                   | Rejeitado                                      |
-| Voto em eventos de BC            | Sim          | Sim                 | Pendente                                       |
-| Voto em eventos de PvP           | Sim          | Sim                 | Pendente                                       |
-| Participação em PvP (snapshots)  | Sim          | Sim                 | Pendente, ou Rejeitado (política "Rejeitar")   |
-| PvP Ativo                        | Sim          | Não (independente)  | Pendente                                       |
-
-::: tip Como ler esta tabela
-As três linhas marcadas com "Sim" em **Combina com E/OU** são as únicas afetadas pela opção de combinação de
-regras do clã. Todas as demais linhas funcionam sempre da mesma forma, independentemente do modo E/OU escolhido.
-Blacklist e Whitelist são checadas antes de qualquer outra regra e, quando se aplicam, decidem o resultado
-sozinhas — blacklist tem prioridade se o mesmo nick estiver nas duas listas.
-:::
+| Regra | Configurável | Resultado se falhar | Notificação |
+|---|---|---|---|
+| Personagem no app | Não | Removido silenciosamente | Nenhuma |
+| Usuário ativo | Não | Removido silenciosamente | Nenhuma |
+| Nível mínimo | Sim (por clã) | Rejeitado e removido | Sim |
+| Cadastro ≤ 30 dias | Não | Rejeitado e removido | Sim |
+| Participação em BC | Sim (por clã) | Pendente (na fila) | Sim (6h/vez) |
+| Voto em PvP | Sim (por clã) | Pendente (na fila) | Sim |
+| Presença em PvP (snapshot) | Sim (por clã) | Pendente ou rejeitado (na fila) | Sim |
+| Janela "PvP Ativo" | Sim (por clã) | Pendente (aguarda passar a janela) | Sim |
+| Janela "Escalação BC" | Sim (por clã) | Pendente (aguarda passar a janela) | Sim |
+| Blacklist de nick | Sim (por clã) | Pendente ou rejeitado | Sim |
+| Whitelist de nick | Sim (por clã) | Aceito direto (ignora demais regras) | Sim |
+| Troca recente de personagem principal | Não (comportamento fixo, 24h) | Bloqueado temporariamente | Sim |
 
 ---
 
-## Participação em BCs, personagem principal e personagens alternativos
+## Situação de múltiplos personagens e piloto
 
-Alguns clãs exigem participação em eventos de Bless Castle para liberar o alistamento automático.
+Se você tem **mais de um personagem**, o voto registrado como "piloto" de outro personagem **não conta automaticamente para todos os seus personagens**. Ele só é considerado como fallback, e apenas quando **não existe voto pelo nick do próprio personagem**.
 
-**Como o sistema encontra o voto:**
-O sistema busca primeiro um voto onde o `nick` corresponda ao personagem solicitante. Se não for encontrado, verifica **exclusivamente** se o dono votou como **Piloto** naquele BC. Votos do dono em qualquer outro personagem não são considerados como alternativa.
+**O que fica liberado depende da regra configurada pelo clã** para o voto de piloto — o Admin escolhe entre: só aquele personagem específico, todos os personagens do usuário, só o personagem principal, personagem + principal, ou nenhum (ou seja, o voto de piloto pode não liberar ninguém, dependendo da configuração).
 
-**Participação:** o personagem solicitante precisa aparecer nos votos com resposta Sim ou Não. Se não houver voto pelo nick, o sistema busca **somente** um voto de Piloto do dono naquele BC — votos do dono em outros personagens não substituem o voto do solicitante.
-
-**Voto decisivo:** somente o BC mais recente define a autorização. Caso o personagem tenha dois votos no mesmo BC (Sim e Não), o **Sim prevalece**. Os BCs anteriores servem apenas para confirmar participação.
-
-Para votos normais (Sim ou Não) do próprio personagem, as opções configuráveis são:
-
-- Apenas o personagem utilizado no voto;
-- Apenas o personagem principal;
-- O personagem utilizado no voto e o personagem principal;
-- Todos os personagens do dono;
-- Ou nenhuma associação adicional.
-
-Quando o dono votou como **Piloto**, o clã pode configurar regras distintas para o piloto com Sim e para o piloto com Não. As mesmas opções acima se aplicam, exceto "apenas o personagem que votou" (que não se aplica ao piloto).
-
-O dono é consultado **exclusivamente** para verificar se votou como Piloto — votos do dono em outros personagens não são considerados como alternativa ao voto do solicitante.
-
-Também é possível que o clã exija participação em mais de um BC recente.
-
-Por isso, dois jogadores que participaram do mesmo evento podem ter resultados diferentes, dependendo das regras
-configuradas pelo clã.
-
-::: tip Voto em PvP segue a mesma lógica
-Tudo o que foi descrito acima para o BC vale igualmente para a regra de **voto em eventos de PvP**, trocando
-apenas a coleção de eventos consultada (PvP em vez de BC). A única diferença é que o PvP não tem uma sentinela fixa
-de "piloto": quando o dono vota "de piloto" de outro personagem, o voto é salvo com o nick desse outro personagem,
-e o sistema busca qualquer voto do mesmo dono naquele evento quando o personagem solicitante não tem voto próprio.
-:::
+**O que você precisa fazer:**
+1. Cadastrar **todos os seus personagens** no app Timaceta
+2. Todos devem estar vinculados à **mesma conta de usuário**
+3. De preferência, votar **com o nick de cada personagem** diretamente — depender do voto de piloto só funciona se o clã tiver configurado essa regra para liberar o personagem em questão
 
 ---
 
-## Por que meu personagem está pendente ou sendo rejeitado?
+## Por que meu personagem está sendo rejeitado se tudo parece certo?
 
-Verifique:
+Checklist:
 
-- O nick não está na blacklist do clã?
-- O nick está correto?
-- Sua conta está ativa?
-- O cadastro foi atualizado nos últimos 30 dias?
-- O nível atende ao mínimo exigido?
-- Você atende às regras de voto BC / voto PvP / participação em PvP configuradas pelo clã — lembrando que, se o
-  clã usa combinação **OU**, basta atender a uma delas?
-- Se houver um evento de PvP ativo do clã acontecendo agora, dentro da janela de horário configurada: seu
-  personagem está no grupo (ou confirmou presença, dependendo da regra do clã) desse evento?
+- [ ] O nick está **exatamente igual** ao do Painel? (maiúsculas, espaços, acentos)
+- [ ] Sua conta no Timaceta está **ativa**? (peça a um Admin para verificar)
+- [ ] Você **salvou** o personagem nos **últimos 30 dias**?
+- [ ] Seu nível atinge o **mínimo configurado** para o clã?
+- [ ] Se o clã exige: você **atende aos critérios de participação em BC e/ou PvP** configurados?
+- [ ] Seu nick não está em uma **blacklist** do clã?
+- [ ] Você não trocou de **personagem principal** nas últimas 24 horas?
+- [ ] Se houver janela de horário ativa (**PvP Ativo** ou **Escalação BC**): você está engajado no momento certo?
+
+Se tudo estiver correto e o problema persistir, entre em contato com um Admin.
