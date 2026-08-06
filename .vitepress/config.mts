@@ -4,7 +4,10 @@ export default defineConfig({
   title: 'Timaceta — Manual do Sistema',
   description: 'Documentação completa do app Timaceta para gestão de clãs no Priston Tales',
   lang: 'pt-BR',
-  base: '/timaceta-docs/',
+  // Servido na raiz do domínio (Vercel: timaceta-docs.vercel.app/) — um
+  // `base` de subpasta aqui faz o VitePress referenciar todo asset/link como
+  // /timaceta-docs/algo, o que dá 404 em tudo quando o site está na raiz.
+  base: '/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#1a1a2e' }],
