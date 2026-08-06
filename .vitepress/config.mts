@@ -66,6 +66,7 @@ export default defineConfig({
           { text: 'Eventos e Votação', link: '/eventos/' },
           { text: 'Grupos PvP', link: '/eventos/grupos-pvp' },
           { text: 'Escalação de BC', link: '/eventos/escalacao-bc' },
+          { text: 'Escalação de BC — Painel Web', link: '/eventos/escalacao-bc-painel' },
         ],
       },
       {

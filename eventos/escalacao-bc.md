@@ -150,3 +150,7 @@ Nela você vê:
 - **Copiar do evento anterior** — ao montar a escalação de um novo evento, o app pode sugerir reaproveitar a estrutura (setores, coordenadores, Valhalla, descrições e grupos) do último evento de BC que teve escalação montada, mantendo apenas quem confirmou presença no evento atual.
 - **Recalcular índice** — uma ferramenta de manutenção que reconstrói as verificações de conflito do zero, útil caso algo pareça dessincronizado (por exemplo, um conflito que não deveria existir, ou uma alocação que não some da tela).
 - **Exportar "Falta solicitar clã"** — um recurso que gera uma lista, pronta para compartilhar via WhatsApp, de quem está escalado no evento mas ainda não é membro efetivo do clã dentro do jogo — útil para cobrar a entrada dessas pessoas no clã.
+
+::: tip Montando pelo computador
+Quem monta a escalação com frequência pode preferir o [Painel Web da Escalação de BC](/eventos/escalacao-bc-painel) — mesmas regras, mas com arrastar-e-soltar e as duas colunas lado a lado, mais rápido que pelo celular.
+:::
