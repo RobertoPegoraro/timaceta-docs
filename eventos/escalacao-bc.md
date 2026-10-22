@@ -147,7 +147,7 @@ Nela você vê:
 
 ## Recursos extras para quem administra
 
-- **Copiar do evento anterior** — ao montar a escalação de um novo evento, o app pode sugerir reaproveitar a estrutura (setores, coordenadores, Valhalla, descrições e grupos) do último evento de BC que teve escalação montada, mantendo apenas quem confirmou presença no evento atual.
+- **Importar de outro evento** — no menu da escalação (app e painel) abre um modal em que o admin escolhe o evento de origem (já vem o último do mesmo tipo: só normais ou só interservidor, com "Ver eventos mais antigos") e marca o que trazer: descrições gerais e por clã, descrições de setor, instruções por classe, setores do Clã Primário e setores do Clã Secundário. Nada que o evento já tem é sobrescrito: descrições só preenchem campos vazios, instruções só entram em clã sem instruções, e setores só entram em escalação ainda sem estrutura (sem coordenador, buffs ou personagens alocados). Nos setores, só permanece quem confirmou presença no evento atual. Num evento interservidor não há opções do Clã Secundário.
 - **Recalcular índice** — uma ferramenta de manutenção que reconstrói as verificações de conflito do zero, útil caso algo pareça dessincronizado (por exemplo, um conflito que não deveria existir, ou uma alocação que não some da tela).
 - **Exportar "Falta solicitar clã"** — um recurso que gera uma lista, pronta para compartilhar via WhatsApp, de quem está escalado no evento mas ainda não é membro efetivo do clã dentro do jogo — útil para cobrar a entrada dessas pessoas no clã.
 
