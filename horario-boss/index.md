@@ -15,7 +15,7 @@ Esta seção só aparece no menu se um Admin tiver ativado em **Configurações 
 
 ## Selecionando o servidor
 
-No topo da tela há um dropdown para escolher o servidor. A lista de servidores **não é fixa** — ela é montada automaticamente com base nos dados recebidos da fonte de horários no momento em que você abre a tela, então pode mudar ao longo do tempo.
+No topo da tela há um seletor de servidor. Ele reúne os servidores da programação cadastrada e dos minutos do dia, inclusive quando a coleta ainda está incompleta.
 
 Um Admin pode configurar um **servidor padrão**, que já vem pré-selecionado quando você abre a tela (você pode trocar para outro servidor da lista normalmente).
 
@@ -25,16 +25,17 @@ Após selecionar, a lista de subservidores é carregada automaticamente.
 
 ## Bosses ativos agora
 
-A tela exibe um **grid de bosses** que estão disponíveis no horário atual (baseado no fuso horário GMT-3 / Brasília).
+A tela exibe os bosses programados para a hora e o dia da semana atuais, no fuso GMT-3 / Brasília.
 
 Para cada boss ativo você vê:
 - Imagem do boss
 - Nome do boss
 - Local de spawn
+- Horário por subservidor. `??` indica minuto ainda desconhecido; horários fixos não dependem da coleta diária.
 
 ### Detalhes do boss
 
-Toque em um boss ativo no grid para abrir uma janela com mais detalhes:
+Toque em um boss da lista para abrir uma janela com mais detalhes:
 - Imagem ampliada do boss
 - Nome
 - Local de spawn
@@ -44,7 +45,21 @@ Toque em um boss ativo no grid para abrir uma janela com mais detalhes:
 
 ## Horários completos
 
-Toque em **"Ver todos os horários"** para abrir um painel com a lista completa de subservidores e seus respectivos horários de boss, ordenados por horário.
+Toque em **"Ver todos os horários"** para consultar a programação semanal de cada boss, com dias, horas, servidores e subservidores.
+
+## Configurando no painel web
+
+Abra **Horário de Boss** e selecione o boss. Cada **entrada** reúne um grupo de dias e seus horários:
+
+1. Dê um nome opcional, como “Domingo a quinta”.
+2. Marque vários dias de uma vez, ou use **Todos os dias**.
+3. Escolha as horas, os servidores e os subservidores. **Todos** inclui todos os subservidores daquele servidor.
+4. Escolha **Time Boss do dia** para usar o minuto coletado ou **Minuto fixo** para um horário exato.
+5. Use **Duplicar entrada** para criar uma variação e altere somente os dias/horas necessários. Salve ao terminar.
+
+Entradas que repetem dia, hora e abrangência são recusadas. A Dama está configurada para domingo a quinta às 21:xx, sexta e sábado às 20:xx, e sua entrada Omega às 20:00 todos os dias. Sexta-feira faz parte da regra especial; domingo usa a regra das 21h.
+
+A programação é recarregada ao abrir, atualizar ou retornar ao aplicativo; a lista de bosses se ajusta automaticamente na troca da hora. É necessária uma versão do app com suporte às regras semanais.
 
 ---
 
@@ -56,11 +71,11 @@ Não existe um botão dedicado de atualização. Para recarregar os dados, **pux
 
 ## Fonte dos dados
 
-Os dados são carregados em tempo real de uma fonte externa configurada pelo Admin. Se a fonte estiver em manutenção ou indisponível, uma mensagem de erro será exibida — aguarde alguns minutos e tente novamente puxando a tela para baixo.
+A programação vem da configuração do painel. Os minutos diários vêm do documento alimentado pela Function e pelos ajustes dos admins. Os dados disponíveis continuam sendo apresentados durante a coleta parcial. Uma falha de leitura é informada; puxe a tela para baixo para tentar novamente.
 
 ### Ajuste manual pelos admins
 
-Quando a fonte externa está fora do ar, um Admin pode ajustar manualmente, apenas para o dia corrente, o horário de spawn de cada subservidor. Nesse caso, a tela mostra um aviso informando que os horários foram **"ajustados pelos admins"** — isso significa que os horários exibidos não vieram da fonte automática, mas foram definidos manualmente até a fonte voltar ao normal.
+Um admin pode ajustar os minutos de cada subservidor para o dia corrente. Quando o servidor selecionado tem ajustes manuais, há um aviso único no topo. Na edição, os campos manuais aparecem em amarelo. A sincronização preserva um valor manual diferente da fonte; se os valores coincidirem em uma leitura posterior, o campo volta à origem automática. O job encerra as consultas ao completar o dia.
 
 ::: tip
 Os horários são calculados automaticamente com base no horário atual do seu dispositivo, ajustado para GMT-3. Verifique se o horário do seu celular está correto para ter a informação precisa.
